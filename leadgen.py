@@ -19,11 +19,14 @@ from openpyxl.utils import get_column_letter
 
 ROOT = Path(__file__).parent
 CFG = yaml.safe_load((ROOT / "config.yaml").read_text())
-SEEN = ROOT / "state" / "seen.json"
+SEEN_DIR = ROOT / "state" / "seen"  # one file per run, so parallel users never conflict in git
 
 
 def load_seen():
-    return json.loads(SEEN.read_text()) if SEEN.exists() else {}
+    seen = {}
+    for f in sorted(SEEN_DIR.glob("*.json")):
+        seen.update(json.loads(f.read_text()))
+    return seen
 
 
 def domain_key(c):
@@ -137,9 +140,9 @@ def sheet(wb, title, rows, cols):
     return ws
 
 
-def build(companies_path, contacts_path):
+def build(companies_path, contacts_path, ignore_seen=False):
     raw = json.loads(Path(companies_path).read_text())
-    seen = load_seen()
+    seen = {} if ignore_seen else load_seen()
     fresh, dupes, keys = [], 0, set()
     for c in raw:
         k = domain_key(c)
@@ -160,45 +163,12 @@ def build(companies_path, contacts_path):
     wb = Workbook()
     wb.remove(wb.active)
 
-    by_ind = {}
-    for r in fresh:
-        by_ind.setdefault(r["Industry"], []).append(r)
-    summary = wb.create_sheet("Summary")
-    summary.append(["Actran Systems - SAP prospect list", date.today().isoformat()])
-    summary.append(["Companies in this list", len(fresh)])
-    summary.append(["Skipped (already delivered / duplicate)", dupes])
-    summary.append([])
-    summary.append(["Industry", "Companies"])
-    for ind, rows in sorted(by_ind.items(), key=lambda x: -len(x[1])):
-        summary.append([ind, len(rows)])
-    summary.append([])
-    summary.append(["SAP Fit", "Companies"])
-    for t in [t["name"] for t in CFG["tiers"]] + ["Revenue unknown"]:
-        summary.append([t, sum(1 for r in fresh if r["SAP Fit"] == t)])
-    summary.column_dimensions["A"].width = 42
-    summary["A1"].font = Font(bold=True, size=14)
-
     sheet(wb, "All Prospects", fresh, cols)
-    for ind, rows in sorted(by_ind.items(), key=lambda x: -len(x[1])):
-        sheet(wb, re.sub(r"[\[\]\*\?/\\:]", "-", ind), rows, cols)
 
     if contacts_path and Path(contacts_path).exists():
         contacts = json.loads(Path(contacts_path).read_text())
         ccols = ["Company", "Name", "Title", "Email", "Email status", "Direct phone", "Company phone", "LinkedIn"]
         sheet(wb, "Contacts", contacts, ccols)
-
-    notes = wb.create_sheet("Methodology")
-    for line in [
-        "Source: Apollo.io company search (Thailand). Revenue is Apollo's estimate converted to THB at "
-        f"{CFG['fx_thb_per_usd']} THB/USD; it is often missing or rough for Thai companies, so verify before outreach.",
-        f"Revenue band: >= {CFG['revenue_min_thb']/1e6:,.0f}M THB, cap: {CFG['revenue_max_thb'] or 'none'}.",
-        "SAP Fit is a rough sizing guide by revenue (SAP Business One vs S/4HANA Cloud Public Edition), not a qualification.",
-        "Each run excludes companies delivered in earlier runs (state/seen.json).",
-        "Existing ERP vendors are not excluded: users of other products may be upgrade or change-partner targets.",
-        "Contact data is subject to PDPA: keep the source and honour opt-outs.",
-    ]:
-        notes.append([line])
-    notes.column_dimensions["A"].width = 120
 
     ids = {r["Apollo org ID"] for r in fresh}
     delivered = [c for c in raw if (c.get("organization_id") or c.get("id")) in ids]
@@ -215,15 +185,15 @@ def build(companies_path, contacts_path):
 def commit(companies_path):
     raw = json.loads(Path(companies_path).read_text())
     seen = load_seen()
-    n = 0
+    new = {}
     for c in raw:
         k = domain_key(c)
         if k and k not in seen:
-            seen[k] = {"name": c.get("name"), "first_listed": date.today().isoformat()}
-            n += 1
-    SEEN.parent.mkdir(exist_ok=True)
-    SEEN.write_text(json.dumps(seen, indent=1, ensure_ascii=False, sort_keys=True))
-    print(f"state/seen.json now has {len(seen)} companies (+{n})")
+            new[k] = {"name": c.get("name"), "first_listed": date.today().isoformat()}
+    SEEN_DIR.mkdir(parents=True, exist_ok=True)
+    (SEEN_DIR / f"{Path(companies_path).parent.name}.json").write_text(
+        json.dumps(new, indent=1, ensure_ascii=False, sort_keys=True))
+    print(f"state/seen/ now has {len(seen) + len(new)} companies (+{len(new)})")
 
 
 if __name__ == "__main__":
@@ -231,5 +201,6 @@ if __name__ == "__main__":
     ap.add_argument("cmd", choices=["build", "commit"])
     ap.add_argument("companies")
     ap.add_argument("--contacts")
+    ap.add_argument("--ignore-seen", action="store_true", help="rebuild a run without de-duplicating against earlier runs")
     a = ap.parse_args()
-    build(a.companies, a.contacts) if a.cmd == "build" else commit(a.companies)
+    build(a.companies, a.contacts, a.ignore_seen) if a.cmd == "build" else commit(a.companies)
