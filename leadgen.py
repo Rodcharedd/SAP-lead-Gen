@@ -200,6 +200,10 @@ def build(companies_path, contacts_path):
         notes.append([line])
     notes.column_dimensions["A"].width = 120
 
+    ids = {r["Apollo org ID"] for r in fresh}
+    delivered = [c for c in raw if (c.get("organization_id") or c.get("id")) in ids]
+    (Path(companies_path).parent / "delivered.json").write_text(json.dumps(delivered, ensure_ascii=False, indent=1))
+
     out = ROOT / "output" / f"SAP_Prospects_{date.today().isoformat()}_{Path(companies_path).parent.name}.xlsx"
     out.parent.mkdir(exist_ok=True)
     wb.save(out)
