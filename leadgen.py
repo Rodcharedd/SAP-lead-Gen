@@ -151,7 +151,9 @@ def build(companies_path, contacts_path):
             continue
         keys.add(k)
         fresh.append(row)
-    fresh.sort(key=lambda r: (r["Revenue (THB M)"] is None, -(r["Revenue (THB M)"] or 0)))
+    # Prefer the sweet spot: B1 / mid-market first, then the smallest of the large companies. Unknown revenue last.
+    order = {t["name"]: i for i, t in enumerate(CFG["tiers"])}
+    fresh.sort(key=lambda r: (order.get(r["SAP Fit"], 99), r["Revenue (THB M)"] or 0))
     fresh = fresh[: CFG["target_count"]]
 
     cols = [k for k in (fresh[0].keys() if fresh else []) if any(r.get(k) not in (None, "") for r in fresh)]
