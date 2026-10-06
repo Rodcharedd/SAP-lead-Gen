@@ -52,6 +52,31 @@ def revenue_usd(c):
     return None
 
 
+NAICS = {"11": "Agriculture", "21": "Mining, Oil & Gas", "22": "Utilities & Energy", "23": "Construction",
+         "31": "Manufacturing - Food & Textile", "32": "Manufacturing - Chemicals & Materials",
+         "33": "Manufacturing - Machinery & Electronics", "42": "Wholesale", "44": "Retail", "45": "Retail",
+         "48": "Transportation & Logistics", "49": "Transportation & Logistics", "51": "Information & Media",
+         "52": "Finance & Insurance", "53": "Real Estate", "54": "Professional Services", "55": "Holding Companies",
+         "56": "Business Services", "61": "Education", "62": "Healthcare", "71": "Arts & Entertainment",
+         "72": "Hospitality & Food Service", "81": "Other Services", "92": "Public Administration"}
+
+
+def industry(c):
+    for code in c.get("naics_codes") or []:
+        if code[:2] in NAICS:
+            return NAICS[code[:2]]
+    return pick(c, "industry") or "Other"
+
+
+def excluded(c):
+    pre = {str(x) for x in CFG.get("exclude_naics_prefixes") or []}
+    return bool(pre) and any(code[:2] in pre for code in c.get("naics_codes") or [])
+
+
+def pct(v):
+    return round(v * 100, 1) if isinstance(v, (int, float)) else None
+
+
 def tier(thb):
     if thb is None:
         return "Revenue unknown"
@@ -69,7 +94,7 @@ def normalise(c):
         phone = c["primary_phone"].get("number")
     return {
         "Company": pick(c, "name"),
-        "Industry": pick(c, "industry") or "Other",
+        "Industry": industry(c),
         "Website": domain_key(c),
         "City": pick(c, "city"),
         "Employees": pick(c, "estimated_num_employees", "employee_count"),
@@ -78,6 +103,8 @@ def normalise(c):
         "SAP Fit": tier(thb),
         "Company phone": phone,
         "LinkedIn": pick(c, "linkedin_url"),
+        "Headcount growth 12m (%)": pct(c.get("organization_headcount_twelve_month_growth")),
+        "Parent company": (c.get("owned_by_organization") or {}).get("name"),
         "Founded": pick(c, "founded_year"),
         "Latest funding": pick(c, "latest_funding_stage"),
         "Apollo org ID": pick(c, "organization_id", "id"),
@@ -116,7 +143,7 @@ def build(companies_path, contacts_path):
     fresh, dupes, keys = [], 0, set()
     for c in raw:
         k = domain_key(c)
-        if not k or k in seen or k in keys:
+        if not k or k in seen or k in keys or excluded(c):
             dupes += 1
             continue
         row = normalise(c)
@@ -127,7 +154,7 @@ def build(companies_path, contacts_path):
     fresh.sort(key=lambda r: (r["Revenue (THB M)"] is None, -(r["Revenue (THB M)"] or 0)))
     fresh = fresh[: CFG["target_count"]]
 
-    cols = list(fresh[0].keys()) if fresh else []
+    cols = [k for k in (fresh[0].keys() if fresh else []) if any(r.get(k) not in (None, "") for r in fresh)]
     wb = Workbook()
     wb.remove(wb.active)
 

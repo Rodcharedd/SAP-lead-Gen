@@ -23,3 +23,6 @@ personas:
 # Credit guard: stop enriching when Apollo credits fall to this level.
 credit_floor: 10
 enrich_contacts: false     # off by default. Turn on only when credits allow.
+
+# Sectors that rarely buy SAP Business One / S/4HANA Cloud (2-digit NAICS): 61 education, 92 public administration
+exclude_naics_prefixes: ["61", "92"]
