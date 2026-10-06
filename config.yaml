@@ -1,0 +1,25 @@
+# Lead-gen settings for Actran Systems (SAP Business One / SAP S/4HANA Cloud Public Edition)
+
+target_count: 100          # companies per run, never repeating earlier runs
+country: Thailand
+
+# Revenue band in THB. Apollo filters in USD, so it is converted with fx_thb_per_usd.
+revenue_min_thb: 50000000        # 50M THB
+revenue_max_thb: null            # null = no upper cap ("2,000M or more")
+fx_thb_per_usd: 35.0
+
+# SAP fit tiers (THB revenue) used for the "SAP Fit" column
+tiers:
+  - {name: "SAP Business One",           min: 50000000,   max: 500000000}
+  - {name: "B1 or S/4HANA Public Cloud", min: 500000000,  max: 2000000000}
+  - {name: "S/4HANA Public Cloud",       min: 2000000000, max: null}
+
+# Contact personas (people search is free; email/phone reveal costs credits)
+personas:
+  titles: [CEO, Managing Director, CFO, Finance Director, CIO, IT Director, IT Manager, COO, Operations Director]
+  seniorities: [c_suite, vp, director]
+  max_per_company: 3
+
+# Credit guard: stop enriching when Apollo credits fall to this level.
+credit_floor: 10
+enrich_contacts: false     # off by default. Turn on only when credits allow.
