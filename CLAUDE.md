@@ -8,3 +8,6 @@ Apollo credits are scarce and the user does not want to top up: always confirm c
 After delivering the xlsx, run `leadgen.py commit` and push `state/seen/` and `runs/`.
 
 The `/generate-leads` skill is the entry point for users. The Excel has a single sheet, "All Prospects": do not add per-industry tabs.
+
+File naming: `output/SAP_Leads_Batch<NN>_<YYYY-MM-DD>.xlsx` (batch number + generation date). `leadgen.py build` picks the next batch number itself.
+Batch history: Batch01 = 2026-10-06 (100 companies, runs/2026-10-06).

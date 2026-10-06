@@ -140,7 +140,7 @@ def sheet(wb, title, rows, cols):
     return ws
 
 
-def build(companies_path, contacts_path, ignore_seen=False):
+def build(companies_path, contacts_path, ignore_seen=False, batch=None):
     raw = json.loads(Path(companies_path).read_text())
     seen = {} if ignore_seen else load_seen()
     fresh, dupes, keys = [], 0, set()
@@ -174,7 +174,9 @@ def build(companies_path, contacts_path, ignore_seen=False):
     delivered = [c for c in raw if (c.get("organization_id") or c.get("id")) in ids]
     (Path(companies_path).parent / "delivered.json").write_text(json.dumps(delivered, ensure_ascii=False, indent=1))
 
-    out = ROOT / "output" / f"SAP_Prospects_{date.today().isoformat()}_{Path(companies_path).parent.name}.xlsx"
+    # Batch number = delivered runs so far + 1 (override with --batch when rebuilding an old run)
+    batch = batch or len(list(SEEN_DIR.glob("*.json"))) + 1
+    out = ROOT / "output" / f"SAP_Leads_Batch{batch:02d}_{date.today().isoformat()}.xlsx"
     out.parent.mkdir(exist_ok=True)
     wb.save(out)
     print(f"Wrote {out}  ({len(fresh)} companies, {dupes} skipped)")
@@ -201,6 +203,7 @@ if __name__ == "__main__":
     ap.add_argument("cmd", choices=["build", "commit"])
     ap.add_argument("companies")
     ap.add_argument("--contacts")
+    ap.add_argument("--batch", type=int, help="batch number for the file name (default: next one)")
     ap.add_argument("--ignore-seen", action="store_true", help="rebuild a run without de-duplicating against earlier runs")
     a = ap.parse_args()
-    build(a.companies, a.contacts, a.ignore_seen) if a.cmd == "build" else commit(a.companies)
+    build(a.companies, a.contacts, a.ignore_seen, a.batch) if a.cmd == "build" else commit(a.companies)

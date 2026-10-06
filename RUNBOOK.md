@@ -15,7 +15,7 @@ Trigger: the user asks for a new lead list. Output: an Excel file in `output/` w
 3. Save the `organizations` and `accounts` arrays together as `runs/<YYYY-MM-DD>/companies.json` (if that folder exists from an earlier run today, use `<YYYY-MM-DD>-2`, `-3`, ...).
 4. Optional, free: people search per company for the personas in config, saved as `runs/<date>/contacts.json` (columns: Company, Name, Title, Email, Email status, Direct phone, Company phone, LinkedIn).
 5. `python3 leadgen.py build runs/<date>/companies.json [--contacts runs/<date>/contacts.json]`
-6. Send the xlsx to the user.
+6. Send the xlsx to the user. File names are `SAP_Leads_Batch<NN>_<date>.xlsx`: the batch number counts delivered runs (Batch01 = 2026-10-06), so people can tell which list is the latest.
 7. After the user has the file: `python3 leadgen.py commit runs/<date>/delivered.json` (written by `build`: only the companies actually in the xlsx, so unused fetched ones stay available next run), then commit and push `state/seen/` and `runs/`. Without the push, the next session will repeat the same companies.
 
 ## Known limits
