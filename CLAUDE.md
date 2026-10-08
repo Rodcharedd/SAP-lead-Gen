@@ -11,3 +11,4 @@ The `/generate-leads` skill is the entry point for users. The Excel has a single
 
 File naming: `output/SAP_Leads_Batch<NN>_<YYYY-MM-DD>.xlsx` (batch number + generation date). `leadgen.py build` picks the next batch number itself.
 Batch history: Batch01 = 2026-10-06 (100 companies, runs/2026-10-06).
+Batch02 = 2026-10-08 (100 companies, runs/2026-10-08, Apollo pages 4-5 plus leftovers from pages 1-3). Next search starts at page 6.
