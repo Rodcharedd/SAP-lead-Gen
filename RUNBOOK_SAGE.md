@@ -14,6 +14,9 @@ Same as `RUNBOOK.md`: check credits first, confirm the total cost before searchi
 6. Send the xlsx (`Sage_Leads_Batch<NN>_<date>.xlsx`, one sheet "All Prospects"). Say which segments were short and how many rows have unknown revenue.
 7. After the user has the file: `python3 sage_leadgen.py commit runs_sage/<date>/delivered.json`, commit and push `state/seen_sage/` and `runs_sage/`.
 
+## Existing customers
+`state/sage_existing_customers.csv` (customers + prospects already worked, from the user's Sage customer list) is excluded by `build` using name matching; matches are written to `runs_sage/<date>/excluded_existing.csv` for checking. Short names (like "EY", "SW") must match exactly. When the user sends new customers, append them to the CSV and commit.
+
 ## Limits
 - Profit, number of group entities, multi-currency and consolidation needs are not in Apollo: the xlsx has empty columns for the sales team. (DBD Datawarehouse blocks scripted access.)
 - Apollo revenue for Thai companies is rough and often missing. Segment classification uses NAICS first, then company-name keywords (column "Matched by"): check the keyword matches.

@@ -7,7 +7,7 @@ Usage:
 
 Reuses the helpers of leadgen.py (SAP). De-duplicates only against earlier Sage lists, never against SAP lists.
 """
-import argparse, json
+import argparse, csv, json, re
 from datetime import date
 from pathlib import Path
 
@@ -19,6 +19,39 @@ import leadgen as lg
 ROOT = Path(__file__).parent
 CFG = yaml.safe_load((ROOT / "config_sage.yaml").read_text())
 SEEN_DIR = ROOT / "state" / "seen_sage"
+
+
+EXISTING = ROOT / "state" / "sage_existing_customers.csv"   # customers and prospects Actran already has
+STOP = {"co", "ltd", "limited", "company", "public", "plc", "pcl", "corporation", "corp", "inc", "thailand",
+        "the", "group", "plant1", "plant2", "plant", "for", "and"}
+
+
+def tokens(text):
+    return [t for t in re.findall(r"[a-z0-9]+", (text or "").lower()) if t not in STOP]
+
+
+def load_existing():
+    if not EXISTING.exists():
+        return []
+    with open(EXISTING, encoding="utf-8") as f:
+        return [(r["company"], tokens(r["company"]), r["kind"]) for r in csv.DictReader(f)]
+
+
+def existing_match(c, existing):
+    """Name match against Actran's existing customers/prospects. Short single words must match exactly."""
+    cand = set(tokens(c.get("name")))
+    cand_list = tokens(c.get("name"))
+    dom = {t for t in re.findall(r"[a-z0-9]+", lg.domain_key(c).split(".")[0].lower())}
+    for name, tk, kind in existing:
+        if not tk:
+            continue
+        if len(tk) == 1 and len(tk[0]) < 5:
+            hit = cand_list == tk
+        else:
+            hit = set(tk) <= cand or (len(tk) == 1 and tk[0] in dom)
+        if hit:
+            return name, kind
+    return None
 
 
 def load_seen():
@@ -104,10 +137,15 @@ def build(path, ignore_seen=False, batch=None):
     raw = json.loads(Path(path).read_text())
     seen = {} if ignore_seen else load_seen()
     rows, keys, skipped, no_seg = [], set(), 0, 0
+    existing, excluded = load_existing(), []
     for c in raw:
         k = lg.domain_key(c)
         if not k or k in seen or k in keys:
             skipped += 1
+            continue
+        hit = existing_match(c, existing)
+        if hit and (CFG.get("exclude_existing_prospects", True) or hit[1] == "customer"):
+            excluded.append({"candidate": c.get("name"), "website": k, "matches": hit[0], "kind": hit[1]})
             continue
         seg, how = classify(c)
         if not seg:
@@ -128,6 +166,10 @@ def build(path, ignore_seen=False, batch=None):
     wb.remove(wb.active)
     lg.sheet(wb, "All Prospects", chosen, cols)
 
+    with open(Path(path).parent / "excluded_existing.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["candidate", "website", "matches", "kind"])
+        w.writeheader()
+        w.writerows(excluded)
     ids = {r["Apollo org ID"] for r in chosen}
     delivered = [c for c in raw if (c.get("organization_id") or c.get("id")) in ids]
     (Path(path).parent / "delivered.json").write_text(json.dumps(delivered, ensure_ascii=False, indent=1))
@@ -143,6 +185,7 @@ def build(path, ignore_seen=False, batch=None):
     print(f"Wrote {out}  ({len(chosen)} companies; skipped {skipped} duplicates/seen, {no_seg} outside target segments)")
     for (m, t), n in sorted(by.items()):
         print(f"  {m:20s} {t:55s} {n}")
+    print(f"  excluded as existing customer/prospect: {len(excluded)} (see excluded_existing.csv in the run folder)")
     unknown = sum(1 for r in chosen if r["Revenue (THB M)"] is None)
     print(f"  revenue unknown: {unknown}")
     if len(chosen) < CFG["target_count"]:

@@ -40,3 +40,7 @@ searches:
   - {name: "Business Services",  naics: ["5416", "5413", "54151", "5112", "518", "5418", "5613"]}
   - {name: "Non-profit",         naics: ["813", "624"]}
 employee_ranges: ["11,50", "51,200", "201,500", "501,1000", "1001,2000", "2001,5000", "5001,10000", "10001,20000"]
+
+# state/sage_existing_customers.csv lists current Sage customers and prospects already being worked.
+# true = also leave out prospects Actran is already working; false = leave out customers only.
+exclude_existing_prospects: true
