@@ -119,7 +119,16 @@ def select(rows):
         return (r["Priority"], not known, abs((r["Revenue (THB M)"] or 0) - 600))  # known first, near the core band
     rows = sorted(rows, key=key)
     chosen, left = [], []
-    counts = {}
+    counts, per_target = {}, {}
+    mins = CFG.get("min_per_target", 0)
+    for r in rows:  # first: a minimum for every target segment, so low-priority ones are not squeezed out
+        t = r["Target segment"]
+        if per_target.get(t, 0) < mins:
+            per_target[t] = per_target.get(t, 0) + 1
+            counts[r["Major segment"]] = counts.get(r["Major segment"], 0) + 1
+            chosen.append(r)
+    taken = {id(r) for r in chosen}
+    rows = [r for r in rows if id(r) not in taken]
     for r in rows:
         m = r["Major segment"]
         if counts.get(m, 0) < CFG["quota_per_major"]:

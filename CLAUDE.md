@@ -15,4 +15,4 @@ Batch02 = 2026-10-08 (100 companies, runs/2026-10-08, Apollo pages 4-5 plus left
 
 ## Sage Intacct lists (separate product)
 `/generate-sage-leads` -> follow `RUNBOOK_SAGE.md`. Settings `config_sage.yaml`, builder `sage_leadgen.py`, delivered companies `state/seen_sage/` (not shared with SAP: the same company may be on both lists). Files: `output/Sage_Leads_Batch<NN>_<date>.xlsx`.
-Sage batch history: none delivered yet.
+Sage batch history: Batch01 = 2026-10-20 (100 companies, runs_sage/2026-10-20). Fetched so far: page 1 of all 4 searches, page 2 of Financial Services, Hospitality, Business Services (Non-profit has ~206 total, mostly under 200M THB). Next: page 3 of those three.

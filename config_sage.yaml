@@ -15,6 +15,7 @@ tiers:
 
 # Shares of the list per major segment. Unfilled quota moves to other segments in priority order.
 quota_per_major: 25
+min_per_target: 5          # at least this many per target segment when available
 
 # Target segments. Lower priority number = pitch first. Matched by NAICS prefix, then by name keywords.
 segments:
