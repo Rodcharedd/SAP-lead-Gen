@@ -61,6 +61,23 @@ def load_seen():
     return seen
 
 
+def excluded_by_rule(c):
+    codes = c.get("naics_codes") or []
+    name = (c.get("name") or "").lower()
+    if any(code.startswith(p) for code in codes for p in CFG.get("exclude_naics", [])):
+        return True
+    return any(k in name for k in CFG.get("exclude_keywords", []))
+
+
+def group_signal(c):
+    name = (c.get("name") or "").lower()
+    hits = [k for k in CFG.get("group_signal", []) if re.search(r"\b" + re.escape(k) + r"\b", name)]
+    n = c.get("estimated_num_employees")
+    if isinstance(n, int) and n >= 500:
+        hits.append(f"{n} employees")
+    return ", ".join(hits) or None
+
+
 def classify(c):
     """Return the first matching segment (lowest priority number). NAICS first, then name keywords."""
     codes = c.get("naics_codes") or []
@@ -104,6 +121,7 @@ def normalise(c, seg, how):
         "Locations": lg.pick(c, "num_retail_locations"),
         "Parent company": (c.get("owned_by_organization") or {}).get("name"),
         "Founded": lg.pick(c, "founded_year"),
+        "Multi-property signal": group_signal(c),
         # Not available from Apollo: to be filled in by the sales team
         "Profit (THB M) - fill in": None,
         "Group entities - check": None,
@@ -116,7 +134,7 @@ def select(rows):
     """Fill quota_per_major per major segment, then top up from the rest by priority."""
     def key(r):
         known = r["Revenue (THB M)"] is not None
-        return (r["Priority"], not known, abs((r["Revenue (THB M)"] or 0) - 600))  # known first, near the core band
+        return (r["Priority"], not r["Multi-property signal"], not known, abs((r["Revenue (THB M)"] or 0) - 600))  # known first, near the core band
     rows = sorted(rows, key=key)
     chosen, left = [], []
     counts, per_target = {}, {}
@@ -155,6 +173,9 @@ def build(path, ignore_seen=False, batch=None):
         hit = existing_match(c, existing)
         if hit and (CFG.get("exclude_existing_prospects", True) or hit[1] == "customer"):
             excluded.append({"candidate": c.get("name"), "website": k, "matches": hit[0], "kind": hit[1]})
+            continue
+        if excluded_by_rule(c):
+            no_seg += 1
             continue
         seg, how = classify(c)
         if not seg:

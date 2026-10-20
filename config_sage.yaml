@@ -13,33 +13,35 @@ tiers:
   - {name: "Core target (200M-1,000M)",        min: 200000000,  max: 1000000000}
   - {name: "Large (1,000M+, compare with enterprise ERP)", min: 1000000000, max: null}
 
-# Shares of the list per major segment. Unfilled quota moves to other segments in priority order.
-quota_per_major: 25
+# Shares of the list per major segment (equal split). Unfilled quota moves to other segments in priority order.
+quota_per_major: 33
 min_per_target: 5          # at least this many per target segment when available
 
-# Target segments. Lower priority number = pitch first. Matched by NAICS prefix, then by name keywords.
+# Target segments (user choice 2026-10-20). Lower priority number = pitch first. Matched by NAICS prefix, then name keywords.
+# Hotels: multi-property groups and hotel holding companies are preferred (see group_signal below).
+# ERP / IT consulting firms are left out (Actran's competitors/partners): see exclude_* below.
 segments:
-  - {priority: 1, major: "Financial Services", target: "Investment Holding / Private Equity / Venture Capital",
-     naics: ["551", "523910", "523999"], keywords: ["holding", "capital", "ventures", "venture", "private equity", "investment"]}
-  - {priority: 2, major: "Hospitality", target: "Hotel & Resort Groups",
-     naics: ["7211", "7212", "7213"], keywords: ["hotel", "resort", "hospitality"]}
-  - {priority: 3, major: "Business Services", target: "IT / Management / Engineering Consulting",
-     naics: ["5416", "5413", "54151"], keywords: ["consulting", "consultant", "advisory"]}
-  - {priority: 4, major: "Financial Services", target: "Real Estate Investment / Asset Management",
-     naics: ["523920", "525", "5311", "5312"], keywords: ["asset management", "reit", "property fund", "real estate"]}
-  - {priority: 5, major: "Non-profit", target: "NGO / Foundation / Development Organisation",
-     naics: ["813", "624"], keywords: ["foundation", "association", "ngo", "charity"]}
-  - {priority: 6, major: "Hospitality", target: "Restaurant Groups / Multi-outlet F&B",
-     naics: ["722"], keywords: ["restaurant", "food & beverage", "f&b"]}
-  - {priority: 7, major: "Business Services", target: "SaaS / Marketing Agency / Recruitment",
-     naics: ["5112", "518", "5418", "5613"], keywords: ["software", "agency", "recruitment", "staffing"]}
+  - {priority: 1, major: "Financial Services", target: "Holding / Private Equity / Venture Capital / Securities",
+     naics: ["551", "523910", "523999", "5231", "523120"], keywords: ["holding", "capital", "ventures", "venture", "private equity", "investment", "securities"]}
+  - {priority: 2, major: "Hospitality", target: "Hotel Groups / Multi-property",
+     naics: ["7211"], keywords: ["hotel", "resort", "hospitality"]}
+  - {priority: 3, major: "Business Services", target: "Consulting (Project-based)",
+     naics: ["5416", "5413"], keywords: ["consulting", "consultant", "advisory", "engineering"]}
+  - {priority: 4, major: "Business Services", target: "Construction (Project-based)",
+     naics: ["236", "237"], keywords: ["construction", "contractor"]}
+
+# Words in the company name that suggest several properties/entities (column "Multi-property signal")
+group_signal: ["group", "hotels", "resorts", "holding", "holdings", "international", "management", "collection", "hospitality"]
+
+# Left out: ERP / IT / digital consulting (NAICS 5415) and these names or keywords
+exclude_naics: ["5415"]
+exclude_keywords: ["erp", "sap ", "digital transformation", "it consulting", "software", "technology consulting"]
 
 # Apollo searches to run (see RUNBOOK_SAGE.md). One search per major segment.
 searches:
-  - {name: "Financial Services", naics: ["551", "5239", "525", "5311", "5312"]}
-  - {name: "Hospitality",        naics: ["7211", "7212", "7213", "722"]}
-  - {name: "Business Services",  naics: ["5416", "5413", "54151", "5112", "518", "5418", "5613"]}
-  - {name: "Non-profit",         naics: ["813", "624"]}
+  - {name: "Financial Services", naics: ["551", "5231", "523910", "523999"]}
+  - {name: "Hospitality",        naics: ["7211"]}
+  - {name: "Business Services",  naics: ["5416", "5413", "236", "237"]}
 employee_ranges: ["11,50", "51,200", "201,500", "501,1000", "1001,2000", "2001,5000", "5001,10000", "10001,20000"]
 
 # state/sage_existing_customers.csv lists current Sage customers and prospects already being worked.
