@@ -101,7 +101,7 @@ def lead_tier(thb):
 
 
 def normalise(c, seg, how):
-    usd = lg.revenue_usd(c)
+    usd = lg.revenue_usd(c) or None   # Apollo gives 0 when revenue is unknown
     thb = usd * CFG["fx_thb_per_usd"] if usd is not None else None
     phone = lg.pick(c, "phone", "sanitized_phone")
     if not phone and isinstance(c.get("primary_phone"), dict):
@@ -116,6 +116,7 @@ def normalise(c, seg, how):
         "Lead tier": lead_tier(thb),
         "Website": lg.domain_key(c),
         "Company phone": phone,
+        "Phone source": "Apollo" if phone else None,
         "LinkedIn": lg.pick(c, "linkedin_url"),
         "Headcount growth 12m (%)": lg.pct(c.get("organization_headcount_twelve_month_growth")),
         "Locations": lg.pick(c, "num_retail_locations"),

@@ -1,0 +1,3310 @@
+[
+ {
+  "id": "5f47a7ab1924bc0001dc85d5",
+  "name": "Avani Hotels and Resorts",
+  "linkedin_url": "http://www.linkedin.com/company/avani-hotels-and-resorts",
+  "twitter_url": "https://twitter.com/AVANI_Hotels",
+  "facebook_url": "https://www.facebook.com/AVANIhotels",
+  "languages": [
+   "English"
+  ],
+  "phone": "+66 2 365 9110",
+  "linkedin_uid": "3216417",
+  "founded_year": 2012,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69a46bc6eb54f10001c27ec7/picture",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "primary_phone": {
+   "number": "+66 2 365 9110",
+   "sanitized_number": "+6623659110"
+  },
+  "sanitized_phone": "+6623659110",
+  "num_languages": 1,
+  "num_retail_locations": 45,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.006462035541195477,
+  "organization_headcount_twelve_month_growth": 0.009724473257698542,
+  "organization_headcount_twenty_four_month_growth": 0.03145695364238411
+ },
+ {
+  "id": "54a1206469702d8aa13e3e02",
+  "name": "Minor Vacation Club",
+  "website_url": "http://www.minorvacationclub.com",
+  "linkedin_url": "http://www.linkedin.com/company/anantara-vacation-club",
+  "languages": [],
+  "linkedin_uid": "2741480",
+  "founded_year": 2010,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a50e06e19cb960001690b77/picture",
+  "primary_domain": "minorvacationclub.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "owned_by_organization_id": "54a1396c69702d2bfd1f5b00",
+  "owned_by_organization": {
+   "id": "54a1396c69702d2bfd1f5b00",
+   "name": "Anantara Hotels & Resorts",
+   "website_url": "http://www.anantara.com"
+  },
+  "num_languages": 0,
+  "owned_by_chain": [
+   "54a1396c69702d2bfd1f5b00",
+   "57c4f498a6da986a3f759469",
+   "5efca546fcdc5b00c04d6e1b"
+  ],
+  "num_retail_locations": 5,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.02222222222222222,
+  "organization_headcount_twelve_month_growth": 0.00546448087431694,
+  "organization_headcount_twenty_four_month_growth": 0.01939058171745152
+ },
+ {
+  "id": "54a1354269702d2f9f3fec00",
+  "name": "Grand Hyatt Erawan Bangkok",
+  "linkedin_url": "http://www.linkedin.com/company/grand-hyatt-erawan-bangkok",
+  "languages": [],
+  "linkedin_uid": "2870045",
+  "founded_year": 1991,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/674ea5b95beca60001ec8807/picture",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110",
+   "561920"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.01204819277108434,
+  "organization_headcount_twelve_month_growth": 0.07692307692307693,
+  "organization_headcount_twenty_four_month_growth": 0.01204819277108434
+ },
+ {
+  "id": "5e181a9e4eddf600f0603089",
+  "name": "SONO Hotels & Resorts Asia",
+  "website_url": "http://www.sonohotelsresortsasia.com",
+  "linkedin_url": "http://www.linkedin.com/company/sonohotelsapac",
+  "twitter_url": "https://twitter.com/AwayKohKood",
+  "languages": [],
+  "phone": "+66 2 168 7533",
+  "linkedin_uid": "2601395",
+  "founded_year": 2011,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69a686c492f3630001f6d4a9/picture",
+  "primary_domain": "sonohotelsresortsasia.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "primary_phone": {
+   "number": "+66 2 168 7533",
+   "sanitized_number": "+6621687533"
+  },
+  "sanitized_phone": "+6621687533",
+  "num_languages": 0,
+  "num_retail_locations": 19,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.15,
+  "organization_headcount_twelve_month_growth": 0.1896551724137931,
+  "organization_headcount_twenty_four_month_growth": 0.3269230769230769
+ },
+ {
+  "id": "55e15cbcf3e5bb333d00006a",
+  "name": "Premier Group of Companies Thailand",
+  "website_url": "http://www.premier.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/premier-group-of-companies-thailand",
+  "languages": [],
+  "phone": "+66 2 301 1000",
+  "linkedin_uid": "10845116",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a58edc26da15200010c4904/picture",
+  "primary_domain": "premier.co.th",
+  "sic_codes": [
+   "6799"
+  ],
+  "naics_codes": [
+   "53112",
+   "424",
+   "7211"
+  ],
+  "primary_phone": {
+   "number": "+66 2 301 1000",
+   "sanitized_number": "+6623011000"
+  },
+  "sanitized_phone": "+6623011000",
+  "num_languages": 0,
+  "num_retail_locations": 5,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.03846153846153846,
+  "organization_headcount_twelve_month_growth": 0.08,
+  "organization_headcount_twenty_four_month_growth": 0.08
+ },
+ {
+  "id": "6040299f2dd02e008c0f714d",
+  "name": "Amari Bangkok",
+  "website_url": "http://www.amari.com",
+  "linkedin_url": "http://www.linkedin.com/company/amari-bangkok",
+  "facebook_url": "https://www.facebook.com/amarihotels/",
+  "languages": [],
+  "linkedin_uid": "69260666",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a4e370fc791650001a47c3d/picture",
+  "primary_domain": "amari.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.01515151515151515,
+  "organization_headcount_twelve_month_growth": 0.04838709677419355,
+  "organization_headcount_twenty_four_month_growth": 0.015625
+ },
+ {
+  "id": "55f5e04af3e5bb1ad4000412",
+  "name": "GCP Hospitality (Gaw Capital Group)",
+  "website_url": "http://www.gcphospitality.com",
+  "linkedin_url": "http://www.linkedin.com/company/gcp-hospitality",
+  "twitter_url": "https://twitter.com/hotels_g",
+  "facebook_url": "https://facebook.com/hotelsg",
+  "languages": [
+   "English",
+   "Chinese"
+  ],
+  "linkedin_uid": "10137916",
+  "founded_year": 2008,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69b0e63cd18e700001393147/picture",
+  "primary_domain": "gcphospitality.com",
+  "sic_codes": [
+   "7011",
+   "6531"
+  ],
+  "naics_codes": [
+   "721110",
+   "531312"
+  ],
+  "num_languages": 2,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": -0.1538461538461539
+ },
+ {
+  "id": "5e564c539f42f4000137b8ac",
+  "name": "Park Hyatt Bangkok",
+  "linkedin_url": "http://www.linkedin.com/company/parkhyattbangkok",
+  "languages": [],
+  "linkedin_uid": "14679054",
+  "founded_year": 2017,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/695ce0b46edaee0001916bb1/picture",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.02083333333333333,
+  "organization_headcount_twelve_month_growth": -0.06,
+  "organization_headcount_twenty_four_month_growth": -0.04081632653061224
+ },
+ {
+  "id": "6029fd9ba3061800e6f29e4f",
+  "name": "Destination Group",
+  "website_url": "http://www.destination-properties.com",
+  "linkedin_url": "http://www.linkedin.com/company/destionation-group",
+  "languages": [],
+  "phone": "+66 2 010 0310",
+  "linkedin_uid": "68962012",
+  "founded_year": 1997,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/686ca05bea6d330001c5177e/picture",
+  "primary_domain": "destination-properties.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110",
+   "561520"
+  ],
+  "primary_phone": {
+   "number": "+66 2 010 0310",
+   "sanitized_number": "+6620100310"
+  },
+  "sanitized_phone": "+6620100310",
+  "num_languages": 0,
+  "num_retail_locations": 35,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.01886792452830189,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": 0.08
+ },
+ {
+  "id": "5b133f04a6da98dcb8934d1d",
+  "name": "Phuket Hotels Association",
+  "website_url": "http://www.phukethotelsassociation.com",
+  "linkedin_url": "http://www.linkedin.com/company/phuket-hotels-association",
+  "twitter_url": "https://twitter.com/phuketHA/",
+  "facebook_url": "https://www.facebook.com/PhuketHotelsAssociation/",
+  "languages": [],
+  "phone": "+66 76 609 258",
+  "linkedin_uid": "16189090",
+  "founded_year": 2016,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a448f945303db00013d9303/picture",
+  "primary_domain": "phukethotelsassociation.com",
+  "sic_codes": [
+   "7011",
+   "8611"
+  ],
+  "naics_codes": [
+   "72111",
+   "813910",
+   "561591"
+  ],
+  "primary_phone": {
+   "number": "+66 76 609 258",
+   "sanitized_number": "+6676609258"
+  },
+  "sanitized_phone": "+6676609258",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": 0.1428571428571428
+ },
+ {
+  "id": "54a1293e69702db6483c7701",
+  "name": "Royal Cliff Hotels Group",
+  "website_url": "http://www.royalcliff.com",
+  "linkedin_url": "http://www.linkedin.com/company/royal-cliff-hotels-group-&-pattaya-exhibition-and-convention-hall",
+  "twitter_url": "https://twitter.com/royalcliffgroup",
+  "facebook_url": "https://facebook.com/royalcliff",
+  "languages": [
+   "English",
+   "Chinese",
+   "Japanese",
+   "Russian"
+  ],
+  "phone": "+66 38 250 421",
+  "linkedin_uid": "1972625",
+  "founded_year": 1973,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6844d4d7b0968c00012e4e79/picture",
+  "primary_domain": "royalcliff.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110",
+   "561920"
+  ],
+  "primary_phone": {
+   "number": "+66 38 250 421",
+   "sanitized_number": "+6638250421"
+  },
+  "sanitized_phone": "+6638250421",
+  "num_languages": 4,
+  "num_retail_locations": 4,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.01666666666666667,
+  "organization_headcount_twenty_four_month_growth": -0.046875
+ },
+ {
+  "id": "63d5b8a5c696c20001879cdd",
+  "name": "One Bangkok",
+  "website_url": "http://www.onebangkok.com",
+  "linkedin_url": "http://www.linkedin.com/company/one-bangkok-official",
+  "facebook_url": "https://www.facebook.com/onebangkokth",
+  "languages": [],
+  "phone": "+66 2 483 5555",
+  "linkedin_uid": "89882997",
+  "founded_year": 2018,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a517b277be4d40001cd7616/picture",
+  "primary_domain": "onebangkok.com",
+  "sic_codes": [
+   "6799"
+  ],
+  "naics_codes": [
+   "53112",
+   "531312",
+   "721110"
+  ],
+  "primary_phone": {
+   "number": "+66 2 483 5555",
+   "sanitized_number": "+6624835555"
+  },
+  "sanitized_phone": "+6624835555",
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.05128205128205128,
+  "organization_headcount_twenty_four_month_growth": 0.1388888888888889
+ },
+ {
+  "id": "6161a47e9aaf960001208a8c",
+  "name": "The Standard, Bangkok Mahanakhon",
+  "website_url": "http://www.standardhotels.com/bangkok/properties/bangkok",
+  "linkedin_url": "http://www.linkedin.com/company/the-standard-bangkok-mahanakhon",
+  "languages": [],
+  "phone": "+1 203-981-8888",
+  "linkedin_uid": "74146442",
+  "founded_year": 2021,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69a5604caf1d1f0001fb65d2/picture",
+  "primary_domain": "standardhotels.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "primary_phone": {
+   "number": "+1 203-981-8888",
+   "sanitized_number": "+12039818888"
+  },
+  "sanitized_phone": "+12039818888",
+  "num_languages": 0,
+  "num_retail_locations": 13,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.02040816326530612,
+  "organization_headcount_twelve_month_growth": 0.04347826086956522,
+  "organization_headcount_twenty_four_month_growth": 0.02127659574468085
+ },
+ {
+  "id": "67ed71aa037b09000db55c93",
+  "name": "Network School",
+  "website_url": "http://www.ns.com",
+  "linkedin_url": "http://www.linkedin.com/company/networkschoolofficial",
+  "languages": [],
+  "linkedin_uid": "106393547",
+  "founded_year": 2024,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/682028eebbbda200015eea82/picture",
+  "primary_domain": "ns.com",
+  "sic_codes": [
+   "7011",
+   "8299"
+  ],
+  "naics_codes": [
+   "721110",
+   "611699"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.1590909090909091,
+  "organization_headcount_twelve_month_growth": 0.5454545454545454,
+  "organization_headcount_twenty_four_month_growth": 6.285714285714286
+ },
+ {
+  "id": "5d095932f65125839e0207da",
+  "name": "MQDC - Magnolia Quality Development Corporation",
+  "website_url": "http://www.mqdc.com",
+  "linkedin_url": "http://www.linkedin.com/company/mqdcforallwellbeing",
+  "facebook_url": "https://facebook.com/mqdcforallwellbeing",
+  "languages": [],
+  "phone": "1265",
+  "linkedin_uid": "1991401",
+  "founded_year": 1994,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6aa1fcf7de849b00017f845e/picture",
+  "primary_domain": "mqdc.com",
+  "sic_codes": [
+   "6531"
+  ],
+  "naics_codes": [
+   "53111",
+   "531390",
+   "721110"
+  ],
+  "primary_phone": {
+   "number": "1265"
+  },
+  "num_languages": 0,
+  "num_retail_locations": 28,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.006097560975609756,
+  "organization_headcount_twelve_month_growth": -0.01807228915662651,
+  "organization_headcount_twenty_four_month_growth": -0.2453703703703704
+ },
+ {
+  "id": "5a9e7761a6da98d9356c6089",
+  "name": "BWH Hotels Asia Pacific",
+  "website_url": "http://www.bwhhotels.com",
+  "linkedin_url": "http://www.linkedin.com/company/bwh-hotels-apac",
+  "twitter_url": "https://twitter.com/bestwesternasia",
+  "facebook_url": "https://facebook.com/bestwesternasia",
+  "languages": [
+   "English"
+  ],
+  "linkedin_uid": "3166573",
+  "founded_year": 2001,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/68288cdbeb6ee000013da38c/picture",
+  "primary_domain": "bwhhotels.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "num_languages": 1,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.3333333333333333,
+  "organization_headcount_twenty_four_month_growth": 0.2
+ },
+ {
+  "id": "6127580b7ddbd600a4e873f5",
+  "name": "Avalon Analytics",
+  "website_url": "http://www.avalon-analytics.com",
+  "linkedin_url": "http://www.linkedin.com/company/avalon-analytics",
+  "facebook_url": "https://www.facebook.com/AvalonAnalyticsBusinessIntelligence/",
+  "languages": [],
+  "phone": "+66 2 121 7431",
+  "linkedin_uid": "72330234",
+  "founded_year": 2020,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6710a7fb6083710001ee481c/picture",
+  "primary_domain": "avalon-analytics.com",
+  "sic_codes": [
+   "7375",
+   "7372",
+   "7011"
+  ],
+  "naics_codes": [
+   "54161",
+   "513210",
+   "721110"
+  ],
+  "primary_phone": {
+   "number": "+66 2 121 7431",
+   "sanitized_number": "+6621217431"
+  },
+  "sanitized_phone": "+6621217431",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.1875,
+  "organization_headcount_twelve_month_growth": 0.2666666666666667,
+  "organization_headcount_twenty_four_month_growth": 0.1875
+ },
+ {
+  "id": "5fc8b6128863240001ece93d",
+  "name": "STAY Wellbeing & Lifestyle Resort Phuket",
+  "website_url": "http://www.stayphuketresort.com",
+  "linkedin_url": "http://www.linkedin.com/company/stayphuketresort",
+  "facebook_url": "https://www.facebook.com/stayphuket/",
+  "languages": [],
+  "alexa_ranking": 289309,
+  "phone": "+66 76 363 250",
+  "linkedin_uid": "67159984",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/68740fb0f74eaa0001d98718/picture",
+  "primary_domain": "stayphuketresort.com",
+  "sic_codes": [
+   "7011",
+   "7991"
+  ],
+  "naics_codes": [
+   "721110",
+   "713940"
+  ],
+  "primary_phone": {
+   "number": "+66 76 363 250",
+   "sanitized_number": "+6676363250"
+  },
+  "sanitized_phone": "+6676363250",
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.2307692307692308,
+  "organization_headcount_twelve_month_growth": 0.3333333333333333,
+  "organization_headcount_twenty_four_month_growth": 0.4545454545454545
+ },
+ {
+  "id": "556db47873696411fd396701",
+  "name": "SALA Hospitality Group",
+  "website_url": "http://www.salahospitality.com",
+  "linkedin_url": "http://www.linkedin.com/company/sala-hospitality-group",
+  "facebook_url": "http://www.facebook.com/salasamui",
+  "languages": [
+   "English"
+  ],
+  "alexa_ranking": 209246,
+  "phone": "+66 2 231 2588",
+  "linkedin_uid": "3179456",
+  "founded_year": 2003,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/672f5535f113610001a8ce63/picture",
+  "primary_domain": "salahospitality.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "primary_phone": {
+   "number": "+66 2 231 2588",
+   "sanitized_number": "+6622312588"
+  },
+  "sanitized_phone": "+6622312588",
+  "num_languages": 1,
+  "num_retail_locations": 8,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.04347826086956522,
+  "organization_headcount_twelve_month_growth": 0.04347826086956522,
+  "organization_headcount_twenty_four_month_growth": -0.07692307692307693
+ },
+ {
+  "id": "5edfa3d3dcc1e60001bf5ce1",
+  "name": "Kimpton Maa-Lai Bangkok",
+  "website_url": "http://www.kimptonmaalaibangkok.com",
+  "linkedin_url": "http://www.linkedin.com/company/kimpton-maa-lai-bangkok",
+  "facebook_url": "https://www.facebook.com/kimptonmaalaibangkok/",
+  "languages": [],
+  "alexa_ranking": 774554,
+  "phone": "+66 2 056 9999",
+  "linkedin_uid": "31332519",
+  "founded_year": 2020,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69a5482af37d5400011fd6b1/picture",
+  "primary_domain": "kimptonmaalaibangkok.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "primary_phone": {
+   "number": "+66 2 056 9999",
+   "sanitized_number": "+6620569999"
+  },
+  "sanitized_phone": "+6620569999",
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.01492537313432836,
+  "organization_headcount_twelve_month_growth": 0.0625,
+  "organization_headcount_twenty_four_month_growth": -0.08108108108108109
+ },
+ {
+  "id": "5c88d06ab3761e0b60ba8d47",
+  "name": "Montara Hospitality Group",
+  "website_url": "http://www.montarahospitality.com",
+  "linkedin_url": "http://www.linkedin.com/company/montarahospitality",
+  "languages": [],
+  "linkedin_uid": "13689130",
+  "founded_year": 2000,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66e575bd4591e20001409ae0/picture",
+  "primary_domain": "montarahospitality.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 13,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.07407407407407407,
+  "organization_headcount_twelve_month_growth": 0.07407407407407407,
+  "organization_headcount_twenty_four_month_growth": 0.3181818181818182
+ },
+ {
+  "id": "68a441f2a142e7001dd1aaa6",
+  "name": "Fairmont Bangkok Sukhumvit",
+  "linkedin_url": "http://www.linkedin.com/company/fairmont-bangkok-sukhumvit",
+  "languages": [],
+  "linkedin_uid": "107836206",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a65fc7c00a11a00018a9bf7/picture",
+  "sic_codes": [
+   "7011",
+   "7389"
+  ],
+  "naics_codes": [
+   "721110",
+   "561920"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.2068965517241379,
+  "organization_headcount_twelve_month_growth": 3.375
+ },
+ {
+  "id": "5b149ac6a6da9871592a56ac",
+  "name": "JW Marriott Phuket Resort and Spa",
+  "website_url": "http://www.jwmarriottphuketresort.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/jw-marriott-phuket-resort-and-spa",
+  "languages": [],
+  "linkedin_uid": "13455278",
+  "founded_year": 2001,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/690c6fbe6eb39c0001d2a04e/picture",
+  "primary_domain": "jwmarriottphuketresort.co.th",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.0273972602739726,
+  "organization_headcount_twelve_month_growth": -0.0273972602739726,
+  "organization_headcount_twenty_four_month_growth": 0.02898550724637681
+ },
+ {
+  "id": "5c2711f5a3ae61cf32f4b8f3",
+  "name": "Hyatt Regency Phuket Resort",
+  "website_url": "http://www.experiencehyattphuket.com",
+  "linkedin_url": "http://www.linkedin.com/company/hyattregencyphuketresort",
+  "facebook_url": "https://facebook.com/HyattRegencyPhuket/",
+  "languages": [],
+  "phone": "+66 76 231 234",
+  "linkedin_uid": "18602808",
+  "founded_year": 2013,
+  "publicly_traded_exchange": "nyse",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/68443702cd1eb3000146adb8/picture",
+  "primary_domain": "experiencehyattphuket.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "primary_phone": {
+   "number": "+66 76 231 234",
+   "sanitized_number": "+6676231234"
+  },
+  "sanitized_phone": "+6676231234",
+  "owned_by_organization_id": "54a1294069702d9ebc576301",
+  "owned_by_organization": {
+   "id": "54a1294069702d9ebc576301",
+   "name": "Hyatt",
+   "website_url": "http://www.hyatt.com"
+  },
+  "num_languages": 0,
+  "owned_by_chain": [
+   "54a1294069702d9ebc576301"
+  ],
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.02777777777777778,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": -0.07894736842105263
+ },
+ {
+  "id": "613541b18e21da0001c44b84",
+  "name": "Unicorn Hospitality",
+  "website_url": "http://www.unicornh.com",
+  "linkedin_url": "http://www.linkedin.com/company/unicorn-hospitality",
+  "languages": [
+   "English"
+  ],
+  "phone": "+66 2 107 2012",
+  "linkedin_uid": "4839540",
+  "founded_year": 2015,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6909c90a61602b00010bac85/picture",
+  "primary_domain": "unicornh.com",
+  "sic_codes": [
+   "7011",
+   "8741"
+  ],
+  "naics_codes": [
+   "53111",
+   "721110",
+   "541611"
+  ],
+  "primary_phone": {
+   "number": "+66 2 107 2012",
+   "sanitized_number": "+6621072012"
+  },
+  "sanitized_phone": "+6621072012",
+  "num_languages": 1,
+  "num_retail_locations": 12,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": 0.3333333333333333
+ },
+ {
+  "id": "54a1358269702d42557ca900",
+  "name": "PER AQUUM Hotels & Resorts",
+  "website_url": "http://www.peraquum.com",
+  "linkedin_url": "http://www.linkedin.com/company/per-aquum-retreats-&-resorts",
+  "twitter_url": "https://twitter.com/Per_AQUUM",
+  "facebook_url": "https://facebook.com/niyama.peraquum",
+  "languages": [
+   "English"
+  ],
+  "linkedin_uid": "504444",
+  "founded_year": 2003,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66e46ff57ffb7d0001244617/picture",
+  "primary_domain": "peraquum.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "num_languages": 1,
+  "num_retail_locations": 2,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.04166666666666666,
+  "organization_headcount_twelve_month_growth": -0.04166666666666666,
+  "organization_headcount_twenty_four_month_growth": 0.0
+ },
+ {
+  "id": "61ec825c455edb00011aa538",
+  "name": "Narai Hospitality Group",
+  "website_url": "http://www.naraihospitalitygroup.com",
+  "linkedin_url": "http://www.linkedin.com/company/naraihospitalitygroup",
+  "facebook_url": "https://facebook.com/naraihotel",
+  "languages": [],
+  "linkedin_uid": "78386245",
+  "founded_year": 1968,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a765d3679d3eb0001e374a5/picture",
+  "primary_domain": "naraihospitalitygroup.com",
+  "sic_codes": [
+   "6512"
+  ],
+  "naics_codes": [
+   "53111",
+   "721110",
+   "531190"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.05,
+  "organization_headcount_twenty_four_month_growth": 0.1351351351351351
+ },
+ {
+  "id": "57c4f848a6da986abef7cb7e",
+  "name": "AKARYN Hotel Group",
+  "linkedin_url": "http://www.linkedin.com/company/akaryn-hotel-group",
+  "languages": [
+   "English"
+  ],
+  "linkedin_uid": "2671324",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/68957566536ed90001c4b8ed/picture",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "num_languages": 1,
+  "num_retail_locations": 8,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.05555555555555555,
+  "organization_headcount_twelve_month_growth": -0.1904761904761905,
+  "organization_headcount_twenty_four_month_growth": -0.2272727272727273
+ },
+ {
+  "id": "66269fcf6efda10300fed527",
+  "name": "Discover Collection",
+  "website_url": "http://www.discovercollection.com",
+  "linkedin_url": "http://www.linkedin.com/company/discover-collection",
+  "languages": [],
+  "linkedin_uid": "101983597",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66d3fc68abadaf0001a6aa77/picture",
+  "primary_domain": "discovercollection.com",
+  "sic_codes": [
+   "7011",
+   "4724"
+  ],
+  "naics_codes": [
+   "72111",
+   "561520"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.15,
+  "organization_headcount_twelve_month_growth": 0.4375,
+  "organization_headcount_twenty_four_month_growth": 0.9166666666666666
+ },
+ {
+  "id": "5a9e50f8a6da98d98c6d1223",
+  "name": "137 Pillars Hotels & Resorts",
+  "website_url": "http://www.137pillarshotels.com",
+  "linkedin_url": "http://www.linkedin.com/company/137-pillars-hotels-and-resorts",
+  "languages": [],
+  "alexa_ranking": 700482,
+  "phone": "+66 2 079 7000",
+  "linkedin_uid": "13198564",
+  "founded_year": 2011,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a48bc9d8b0f610001f46629/picture",
+  "primary_domain": "137pillarshotels.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "721110"
+  ],
+  "primary_phone": {
+   "number": "+66 2 079 7000",
+   "sanitized_number": "+6620797000"
+  },
+  "sanitized_phone": "+6620797000",
+  "num_languages": 0,
+  "num_retail_locations": 3,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.08571428571428572,
+  "organization_headcount_twenty_four_month_growth": 0.05555555555555555
+ },
+ {
+  "id": "55ec97faf3e5bb12a400375f",
+  "name": "Siam Gems Group",
+  "website_url": "http://www.siamgemsgroup.com",
+  "linkedin_url": "http://www.linkedin.com/company/siam-gems-group",
+  "languages": [],
+  "phone": "+66 2 949 9500",
+  "linkedin_uid": "10106775",
+  "founded_year": 1960,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/673d6622e1072b0001752125/picture",
+  "primary_domain": "siamgemsgroup.com",
+  "sic_codes": [
+   "5099"
+  ],
+  "naics_codes": [
+   "561520",
+   "721110"
+  ],
+  "primary_phone": {
+   "number": "+66 2 949 9500",
+   "sanitized_number": "+6629499500"
+  },
+  "sanitized_phone": "+6629499500",
+  "num_languages": 0,
+  "num_retail_locations": 4,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": 0.0
+ },
+ {
+  "id": "60c945bdf29be400a4df94b2",
+  "name": "Fairtex Group",
+  "website_url": "http://www.f.com",
+  "linkedin_url": "http://www.linkedin.com/company/fairtex",
+  "facebook_url": "https://www.facebook.com/fairtex.muaythai.pattaya",
+  "languages": [],
+  "linkedin_uid": "142401",
+  "founded_year": 1971,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/67672ff95a0019000147ce8c/picture",
+  "primary_domain": "f.com",
+  "naics_codes": [
+   "334",
+   "3152",
+   "7211"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 2,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.04761904761904762,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": 0.5714285714285714
+ },
+ {
+  "id": "638a33f8638eed00a3955d0d",
+  "name": "Resolute Hotels And Resorts",
+  "website_url": "http://www.resolutehotels.com",
+  "linkedin_url": "http://www.linkedin.com/company/resolute-hotels-and-resorts",
+  "languages": [],
+  "linkedin_uid": "86415398",
+  "founded_year": 2019,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6702612887470200014e9961/picture",
+  "primary_domain": "resolutehotels.com",
+  "sic_codes": [
+   "7011"
+  ],
+  "naics_codes": [
+   "56159",
+   "721110"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": -0.25
+ },
+ {
+  "id": "55697c997369642585fe3e00",
+  "name": "JobThai",
+  "website_url": "http://www.jobthai.com",
+  "linkedin_url": "http://www.linkedin.com/company/jobthai",
+  "languages": [
+   "English"
+  ],
+  "alexa_ranking": 12739,
+  "linkedin_uid": "3767791",
+  "founded_year": 2000,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6aa54a284db78a000102d21c/picture",
+  "primary_domain": "jobthai.com",
+  "sic_codes": [
+   "7361"
+  ],
+  "naics_codes": [
+   "54161",
+   "561311"
+  ],
+  "num_languages": 1,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": 0.0
+ },
+ {
+  "id": "5dc2aa564416040098cfb340",
+  "name": "RMA Group Company Limited",
+  "website_url": "http://www.rmagroup.com",
+  "linkedin_url": "http://www.linkedin.com/company/rma-group",
+  "twitter_url": "https://twitter.com/rmagroup",
+  "facebook_url": "https://facebook.com/rmagroupglobal/",
+  "languages": [
+   "English"
+  ],
+  "phone": "+66 2 762 8500",
+  "linkedin_uid": "604003",
+  "founded_year": 1986,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69aea42055cc36000100ab1d/picture",
+  "primary_domain": "rmagroup.com",
+  "sic_codes": [
+   "3531"
+  ],
+  "naics_codes": [
+   "33611",
+   "441110",
+   "23622",
+   "237130",
+   "522220"
+  ],
+  "primary_phone": {
+   "number": "+66 2 762 8500",
+   "sanitized_number": "+6627628500"
+  },
+  "sanitized_phone": "+6627628500",
+  "num_languages": 1,
+  "num_retail_locations": 370,
+  "organization_revenue_printed": "16.1M",
+  "organization_revenue": 16137000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.02007299270072993,
+  "organization_headcount_twelve_month_growth": 0.009025270758122744,
+  "organization_headcount_twenty_four_month_growth": 0.0108499095840868
+ },
+ {
+  "id": "54a129ca69702dc128268d01",
+  "name": "KPMG Thailand",
+  "linkedin_url": "http://www.linkedin.com/company/kpmg-thailand",
+  "languages": [],
+  "linkedin_uid": "844671",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a5483f1ccd58600012bf045/picture",
+  "sic_codes": [
+   "8721",
+   "8742"
+  ],
+  "naics_codes": [
+   "541211",
+   "541611"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 2,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.004616805170821791,
+  "organization_headcount_twelve_month_growth": -0.02443438914027149,
+  "organization_headcount_twenty_four_month_growth": -0.0297029702970297
+ },
+ {
+  "id": "5592175a7369644859e20100",
+  "name": "PwC Thailand",
+  "linkedin_url": "http://www.linkedin.com/company/pwc_thailand",
+  "languages": [],
+  "linkedin_uid": "6241318",
+  "founded_year": 1959,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a53890c9c0d4d00011ff65c/picture",
+  "sic_codes": [
+   "8721",
+   "8742"
+  ],
+  "naics_codes": [
+   "541211",
+   "541611"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 2,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.004739336492890996,
+  "organization_headcount_twelve_month_growth": -0.000942507068803016,
+  "organization_headcount_twenty_four_month_growth": 0.02514506769825919
+ },
+ {
+  "id": "5e5832b5ede76e0001ed731b",
+  "name": "CR3",
+  "website_url": "http://www.cr3.group",
+  "linkedin_url": "http://www.linkedin.com/company/cr3-pte-ltd",
+  "facebook_url": "https://www.facebook.com/CR3PteLtd",
+  "languages": [],
+  "linkedin_uid": "14586941",
+  "founded_year": 1991,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69fd9208294c0b0001a004a6/picture",
+  "primary_domain": "cr3.group",
+  "sic_codes": [
+   "1731"
+  ],
+  "naics_codes": [
+   "33399",
+   "541330",
+   "236210"
+  ],
+  "owned_by_organization_id": "5da33c180e48dc00011d686e",
+  "owned_by_organization": {
+   "id": "5da33c180e48dc00011d686e",
+   "name": "ShawKwei & Partners",
+   "website_url": "http://www.shawkwei.com"
+  },
+  "num_languages": 0,
+  "owned_by_chain": [
+   "5da33c180e48dc00011d686e"
+  ],
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.00510204081632653,
+  "organization_headcount_twelve_month_growth": 0.05010660980810235,
+  "organization_headcount_twenty_four_month_growth": 0.1231470923603193
+ },
+ {
+  "id": "63ba7c6f665b670001554736",
+  "name": "JacksonGrant",
+  "website_url": "http://www.jacksongrant.io",
+  "linkedin_url": "http://www.linkedin.com/company/jacksongrant-co-ltd",
+  "languages": [
+   "English"
+  ],
+  "phone": "+66 2 653 3998",
+  "linkedin_uid": "3083975",
+  "founded_year": 2012,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66e5e87f7aed2600011578db/picture",
+  "primary_domain": "jacksongrant.io",
+  "sic_codes": [
+   "8742",
+   "7361"
+  ],
+  "naics_codes": [
+   "54161",
+   "561311",
+   "561312"
+  ],
+  "primary_phone": {
+   "number": "+66 2 653 3998",
+   "sanitized_number": "+6626533998"
+  },
+  "sanitized_phone": "+6626533998",
+  "num_languages": 1,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.07894736842105263,
+  "organization_headcount_twelve_month_growth": 0.05128205128205128,
+  "organization_headcount_twenty_four_month_growth": 0.2424242424242424
+ },
+ {
+  "id": "5ed8d44cc410b70001374c55",
+  "name": "Italian-Thai Development Public Company Limited \"ITD\"​",
+  "website_url": "http://www.itd.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/itdhq",
+  "facebook_url": "https://facebook.com/itdho",
+  "languages": [],
+  "alexa_ranking": 811323,
+  "phone": "+66 2 716 1600",
+  "linkedin_uid": "14528426",
+  "founded_year": 1958,
+  "publicly_traded_symbol": "ITD-R.BK",
+  "publicly_traded_exchange": "set",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/695f699af6490d0001339572/picture",
+  "primary_domain": "itd.co.th",
+  "sic_codes": [
+   "1623"
+  ],
+  "naics_codes": [
+   "23731",
+   "237990",
+   "54133",
+   "327320"
+  ],
+  "primary_phone": {
+   "number": "+66 2 716 1600",
+   "sanitized_number": "+6627161600"
+  },
+  "sanitized_phone": "+6627161600",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue_printed": "1.1B",
+  "organization_revenue": 1140000000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.00208768267223382,
+  "organization_headcount_twelve_month_growth": -0.01646090534979424,
+  "organization_headcount_twenty_four_month_growth": -0.05533596837944664
+ },
+ {
+  "id": "5da3adf4aa246200015dd23b",
+  "name": "Vardhan Consulting Engineers",
+  "website_url": "http://www.techvardhan.com",
+  "linkedin_url": "http://www.linkedin.com/company/techvardhan",
+  "languages": [],
+  "phone": "+66 97 215 1276",
+  "linkedin_uid": "13759676",
+  "founded_year": 2018,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/687c77ba17b2f6000183fe28/picture",
+  "primary_domain": "techvardhan.com",
+  "sic_codes": [
+   "8741",
+   "8711"
+  ],
+  "naics_codes": [
+   "541330",
+   "541611"
+  ],
+  "primary_phone": {
+   "number": "+66 97 215 1276",
+   "sanitized_number": "+66972151276"
+  },
+  "sanitized_phone": "+66972151276",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": -0.0273972602739726,
+  "organization_headcount_twenty_four_month_growth": -0.1125
+ },
+ {
+  "id": "6198f3a35230b900a42f5eb4",
+  "name": "True Blue",
+  "website_url": "http://www.trueblue.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/true-blue-recruitment",
+  "languages": [],
+  "phone": "+66 99 490 2226",
+  "linkedin_uid": "76140891",
+  "founded_year": 2021,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/68b6c62880cd440001b86079/picture",
+  "primary_domain": "trueblue.co.th",
+  "sic_codes": [
+   "7361"
+  ],
+  "naics_codes": [
+   "54161",
+   "561311"
+  ],
+  "primary_phone": {
+   "number": "+66 99 490 2226",
+   "sanitized_number": "+66994902226"
+  },
+  "sanitized_phone": "+66994902226",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0196078431372549,
+  "organization_headcount_twelve_month_growth": -0.01886792452830189,
+  "organization_headcount_twenty_four_month_growth": -0.05454545454545454
+ },
+ {
+  "id": "556999f77369642521786500",
+  "name": "Grant Thornton Thailand",
+  "website_url": "http://www.grantthornton.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/grant-thornton-thailand",
+  "twitter_url": "https://twitter.com/neosdigital",
+  "facebook_url": "https://www.facebook.com/GrantThorntonTH/",
+  "languages": [
+   "English"
+  ],
+  "phone": "+66 2 205 8247",
+  "linkedin_uid": "3682813",
+  "founded_year": 1991,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a619fafd74aa50001d7220e/picture",
+  "primary_domain": "grantthornton.co.th",
+  "sic_codes": [
+   "8742",
+   "8721"
+  ],
+  "naics_codes": [
+   "541211",
+   "541611"
+  ],
+  "primary_phone": {
+   "number": "+66 2 205 8247",
+   "sanitized_number": "+6622058247"
+  },
+  "sanitized_phone": "+6622058247",
+  "owned_by_organization_id": "5592315c736964186f74c200",
+  "owned_by_organization": {
+   "id": "5592315c736964186f74c200",
+   "name": "Grant Thornton International Ltd",
+   "website_url": "http://www.grantthornton.global"
+  },
+  "num_languages": 1,
+  "owned_by_chain": [
+   "5592315c736964186f74c200",
+   "5e2549b95fb47e00e60cde03",
+   "67b410e07541e400016bb41e"
+  ],
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.007407407407407408,
+  "organization_headcount_twelve_month_growth": 0.09836065573770492,
+  "organization_headcount_twenty_four_month_growth": 0.3009708737864077
+ },
+ {
+  "id": "5a9da144a6da98d935667f77",
+  "name": "RISE - Innovation Consulting",
+  "website_url": "http://www.riseaccel.com",
+  "linkedin_url": "http://www.linkedin.com/company/riseinnovationconsulting",
+  "facebook_url": "https://www.facebook.com/RISECorporateInnovation/",
+  "languages": [],
+  "phone": "+66 66 225 9918",
+  "linkedin_uid": "13277383",
+  "founded_year": 2016,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69833ede715b3b00010c0434/picture",
+  "primary_domain": "riseaccel.com",
+  "sic_codes": [
+   "8742"
+  ],
+  "naics_codes": [
+   "54169",
+   "541611",
+   "611430"
+  ],
+  "primary_phone": {
+   "number": "+66 66 225 9918",
+   "sanitized_number": "+66662259918"
+  },
+  "sanitized_phone": "+66662259918",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": -0.09523809523809523,
+  "organization_headcount_twenty_four_month_growth": -0.07317073170731707
+ },
+ {
+  "id": "636a398f595df800cb32a16f",
+  "name": "HYRED",
+  "website_url": "http://www.hyred.team",
+  "linkedin_url": "http://www.linkedin.com/company/hyredteam",
+  "languages": [],
+  "linkedin_uid": "86815040",
+  "founded_year": 2022,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/690db2d2a31308000180efe5/picture",
+  "primary_domain": "hyred.team",
+  "sic_codes": [
+   "7361",
+   "7363"
+  ],
+  "naics_codes": [
+   "54161",
+   "561311",
+   "561312",
+   "561330"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0625,
+  "organization_headcount_twelve_month_growth": 0.0625,
+  "organization_headcount_twenty_four_month_growth": 1.125
+ },
+ {
+  "id": "5a9e40d7a6da98d9a15e84f0",
+  "name": "ABeam Consulting Thailand",
+  "linkedin_url": "http://www.linkedin.com/company/abeam-consulting-thailand",
+  "languages": [],
+  "linkedin_uid": "22294225",
+  "founded_year": 2005,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69f63282bc68ff000196327a/picture",
+  "sic_codes": [
+   "8742"
+  ],
+  "naics_codes": [
+   "541611"
+  ],
+  "owned_by_organization_id": "6144ae2d9a19fb00a475d39e",
+  "owned_by_organization": {
+   "id": "6144ae2d9a19fb00a475d39e",
+   "name": "NEC Brasil"
+  },
+  "num_languages": 0,
+  "owned_by_chain": [
+   "6144ae2d9a19fb00a475d39e"
+  ],
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0182370820668693,
+  "organization_headcount_twelve_month_growth": 0.07717041800643087,
+  "organization_headcount_twenty_four_month_growth": 0.1056105610561056
+ },
+ {
+  "id": "5e570694f429a700011c6155",
+  "name": "BrightSide People Co., Ltd (BrightSide People Co.,Ltd ❘ ที่ปรึกษาด้านวัฒนธรรมองค์กร)",
+  "website_url": "http://www.brightsidepeople.com",
+  "linkedin_url": "http://www.linkedin.com/company/brightsidepeople",
+  "languages": [],
+  "alexa_ranking": 191092,
+  "phone": "+66 64 972 9155",
+  "linkedin_uid": "18965930",
+  "founded_year": 2010,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6916dd7a18808100010e1e86/picture",
+  "primary_domain": "brightsidepeople.com",
+  "sic_codes": [
+   "8742"
+  ],
+  "naics_codes": [
+   "541611",
+   "611430"
+  ],
+  "primary_phone": {
+   "number": "+66 64 972 9155",
+   "sanitized_number": "+66649729155"
+  },
+  "sanitized_phone": "+66649729155",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": 0.0
+ },
+ {
+  "id": "66415e6989a60f0001d95e2b",
+  "name": "Banpu NEXT Company Limited",
+  "website_url": "http://www.banpunext.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/banpu-next-company-limited",
+  "facebook_url": "https://facebook.com/banpunext",
+  "languages": [],
+  "phone": "+66 2 095 6595",
+  "linkedin_uid": "14594279",
+  "founded_year": 2020,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69a4d6836ef42600014d89a4/picture",
+  "primary_domain": "banpunext.co.th",
+  "naics_codes": [
+   "221114",
+   "221115",
+   "54161"
+  ],
+  "primary_phone": {
+   "number": "+66 2 095 6595",
+   "sanitized_number": "+6620956595"
+  },
+  "sanitized_phone": "+6620956595",
+  "owned_by_organization_id": "55ed5163f3e5bb16ec004771",
+  "owned_by_organization": {
+   "id": "55ed5163f3e5bb16ec004771",
+   "name": "BANPU Public Company Limited",
+   "website_url": "http://www.banpu.com"
+  },
+  "num_languages": 0,
+  "owned_by_chain": [
+   "55ed5163f3e5bb16ec004771"
+  ],
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.02702702702702703,
+  "organization_headcount_twelve_month_growth": 0.0410958904109589,
+  "organization_headcount_twenty_four_month_growth": 0.08571428571428572
+ },
+ {
+  "id": "64ad1d2f947a5700017be37b",
+  "name": "SWITCH-Asia Official",
+  "website_url": "http://www.switch-asia.eu",
+  "linkedin_url": "http://www.linkedin.com/company/switch-asia-official",
+  "twitter_url": "https://twitter.com/switchasia",
+  "facebook_url": "https://www.facebook.com/EUSWITCHAsia",
+  "languages": [],
+  "linkedin_uid": "91393899",
+  "founded_year": 2007,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69ad4f9abda5430001b7f6db/picture",
+  "primary_domain": "switch-asia.eu",
+  "sic_codes": [
+   "8999"
+  ],
+  "naics_codes": [
+   "54169",
+   "813211",
+   "541620"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.07692307692307693,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": -0.2941176470588235
+ },
+ {
+  "id": "5d0ab1f7a3ae6198cbaceb50",
+  "name": "SC Asset Corporation PLC.",
+  "website_url": "http://www.scasset.com",
+  "linkedin_url": "http://www.linkedin.com/company/scasset",
+  "twitter_url": "https://twitter.com/sc_asset",
+  "facebook_url": "https://www.facebook.com/scasset",
+  "languages": [],
+  "phone": "+66 2 949 2000",
+  "linkedin_uid": "13636831",
+  "founded_year": 2003,
+  "publicly_traded_symbol": "SC-R.BK",
+  "publicly_traded_exchange": "set",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a4addb304dc9f00015dbcab/picture",
+  "primary_domain": "scasset.com",
+  "sic_codes": [
+   "6531",
+   "6552"
+  ],
+  "naics_codes": [
+   "53111",
+   "236117",
+   "531390"
+  ],
+  "primary_phone": {
+   "number": "+66 2 949 2000",
+   "sanitized_number": "+6629492000"
+  },
+  "sanitized_phone": "+6629492000",
+  "num_languages": 0,
+  "num_retail_locations": 97,
+  "organization_revenue_printed": "647.4M",
+  "organization_revenue": 647434000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.01092896174863388,
+  "organization_headcount_twelve_month_growth": 0.0755813953488372,
+  "organization_headcount_twenty_four_month_growth": 0.1280487804878049
+ },
+ {
+  "id": "5c220ccfa3ae6160c6c05b5e",
+  "name": "Mahanakorn Partners Group",
+  "website_url": "http://www.mahanakornpartners.com",
+  "linkedin_url": "http://www.linkedin.com/company/mahanakorn-partners-group-co-ltd",
+  "facebook_url": "https://www.facebook.com/mahanakornpartners/",
+  "languages": [],
+  "phone": "+66 2 651 5107",
+  "linkedin_uid": "13427345",
+  "founded_year": 1999,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66f95863bb20870001e689e2/picture",
+  "primary_domain": "mahanakornpartners.com",
+  "sic_codes": [
+   "8111",
+   "8721",
+   "8742"
+  ],
+  "naics_codes": [
+   "541110",
+   "541211",
+   "541611"
+  ],
+  "primary_phone": {
+   "number": "+66 2 651 5107",
+   "sanitized_number": "+6626515107"
+  },
+  "sanitized_phone": "+6626515107",
+  "num_languages": 0,
+  "num_retail_locations": 2,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.09523809523809523,
+  "organization_headcount_twenty_four_month_growth": 0.3529411764705883
+ },
+ {
+  "id": "55e7ca5af3e5bb40ef000542",
+  "name": "G7 Logistics Networks",
+  "website_url": "http://www.g7logisticsnetworks.com",
+  "linkedin_url": "http://www.linkedin.com/company/g7n",
+  "twitter_url": "https://twitter.com/G7_Logistics",
+  "facebook_url": "https://www.facebook.com/G7Network/",
+  "languages": [],
+  "phone": "+66 2 260 4990",
+  "linkedin_uid": "6587156",
+  "founded_year": 2016,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6963d1f5d9125a00016fa6dd/picture",
+  "primary_domain": "g7logisticsnetworks.com",
+  "sic_codes": [
+   "4731",
+   "8611",
+   "7389"
+  ],
+  "naics_codes": [
+   "54161",
+   "813910",
+   "561920"
+  ],
+  "primary_phone": {
+   "number": "+66 2 260 4990",
+   "sanitized_number": "+6622604990"
+  },
+  "sanitized_phone": "+6622604990",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.1428571428571428,
+  "organization_headcount_twelve_month_growth": 0.3333333333333333,
+  "organization_headcount_twenty_four_month_growth": 0.1428571428571428
+ },
+ {
+  "id": "5f468849376f5e000167754a",
+  "name": "Mermaid Maritime Public Company Limited",
+  "linkedin_url": "http://www.linkedin.com/company/mermaid-maritime-public-company-limited",
+  "languages": [
+   "English"
+  ],
+  "phone": "+66 2 255 3115",
+  "linkedin_uid": "1272453",
+  "publicly_traded_exchange": "sgx",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6879cfb0995efd00016f12a7/picture",
+  "sic_codes": [
+   "1389",
+   "8711"
+  ],
+  "naics_codes": [
+   "213112",
+   "541330"
+  ],
+  "primary_phone": {
+   "number": "+66 2 255 3115",
+   "sanitized_number": "+6622553115"
+  },
+  "sanitized_phone": "+6622553115",
+  "num_languages": 1,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.01298701298701299,
+  "organization_headcount_twelve_month_growth": -0.01265822784810127,
+  "organization_headcount_twenty_four_month_growth": 0.02631578947368421
+ },
+ {
+  "id": "56e6d72cf3e5bb3a2400e3cd",
+  "name": "RECRUITdee",
+  "website_url": "http://www.recruitdee.com",
+  "linkedin_url": "http://www.linkedin.com/company/recruitdee",
+  "languages": [
+   "English"
+  ],
+  "phone": "+66 2 258 3880",
+  "linkedin_uid": "10451322",
+  "founded_year": 2015,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6878c49fd7b76e0001b62d34/picture",
+  "primary_domain": "recruitdee.com",
+  "sic_codes": [
+   "7361"
+  ],
+  "naics_codes": [
+   "54161",
+   "561311",
+   "561312"
+  ],
+  "primary_phone": {
+   "number": "+66 2 258 3880",
+   "sanitized_number": "+6622583880"
+  },
+  "sanitized_phone": "+6622583880",
+  "num_languages": 1,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": -0.06
+ },
+ {
+  "id": "556981d07369642541224600",
+  "name": "Franco-Thai Chamber of Commerce (FTCC)",
+  "website_url": "http://www.francothaicc.com",
+  "linkedin_url": "http://www.linkedin.com/company/franco-thai-chamber-of-commerce",
+  "facebook_url": "https://www.facebook.com/francothaicc/",
+  "languages": [
+   "English",
+   "French",
+   "Italian"
+  ],
+  "phone": "+66 2 650 9613",
+  "linkedin_uid": "441542",
+  "founded_year": 1966,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69a3f1f1551b0d0001ab4160/picture",
+  "primary_domain": "francothaicc.com",
+  "sic_codes": [
+   "8699",
+   "8611",
+   "7389"
+  ],
+  "naics_codes": [
+   "54161",
+   "813910",
+   "561920"
+  ],
+  "primary_phone": {
+   "number": "+66 2 650 9613",
+   "sanitized_number": "+6626509613"
+  },
+  "sanitized_phone": "+6626509613",
+  "num_languages": 3,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.6363636363636364,
+  "organization_headcount_twenty_four_month_growth": 0.6363636363636364
+ },
+ {
+  "id": "5d0a379680f93e06a1fbbc65",
+  "name": "Italthai Engineering",
+  "website_url": "http://www.italthaiengineering.com",
+  "linkedin_url": "http://www.linkedin.com/company/italthai-engineering-co.-ltd.",
+  "facebook_url": "https://www.facebook.com/italthaiengineeringITE",
+  "languages": [
+   "English"
+  ],
+  "phone": "+66 63 216 2574",
+  "linkedin_uid": "13241944",
+  "founded_year": 1967,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/677e00d19ea1600001d6de88/picture",
+  "primary_domain": "italthaiengineering.com",
+  "sic_codes": [
+   "1731"
+  ],
+  "naics_codes": [
+   "237130",
+   "541330"
+  ],
+  "primary_phone": {
+   "number": "+66 63 216 2574",
+   "sanitized_number": "+66632162574"
+  },
+  "sanitized_phone": "+66632162574",
+  "owned_by_organization_id": "556d59f3736964124338f400",
+  "owned_by_organization": {
+   "id": "556d59f3736964124338f400",
+   "name": "Italthai Industrial Company Limited",
+   "website_url": "http://www.italthaiindustrial.com"
+  },
+  "num_languages": 1,
+  "owned_by_chain": [
+   "556d59f3736964124338f400"
+  ],
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.01052631578947368,
+  "organization_headcount_twelve_month_growth": 0.01075268817204301,
+  "organization_headcount_twenty_four_month_growth": -0.08737864077669903
+ },
+ {
+  "id": "5c21bd8fa3ae6136b6b394d9",
+  "name": "Aibel Thailand LTD",
+  "linkedin_url": "http://www.linkedin.com/company/aibel-thailand-ltd",
+  "facebook_url": "https://www.facebook.com/AibelAS",
+  "languages": [],
+  "phone": "+47 852 70 000",
+  "linkedin_uid": "23209447",
+  "founded_year": 2004,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/683b09392a19830001919b3c/picture",
+  "naics_codes": [
+   "332312",
+   "541330"
+  ],
+  "primary_phone": {
+   "number": "+47 852 70 000",
+   "sanitized_number": "+4785270000"
+  },
+  "sanitized_phone": "+4785270000",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": 0.0
+ },
+ {
+  "id": "5a9f0ebfa6da98d9a8db9557",
+  "name": "Asia Centre",
+  "website_url": "http://www.asiacentre.org",
+  "linkedin_url": "http://www.linkedin.com/company/asiacentre",
+  "languages": [],
+  "phone": "+66 2 129 3773",
+  "linkedin_uid": "13293777",
+  "founded_year": 2015,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a007c6170736800014de738/picture",
+  "primary_domain": "asiacentre.org",
+  "naics_codes": [
+   "54169",
+   "541720"
+  ],
+  "primary_phone": {
+   "number": "+66 2 129 3773",
+   "sanitized_number": "+6621293773"
+  },
+  "sanitized_phone": "+6621293773",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.06666666666666667,
+  "organization_headcount_twelve_month_growth": 0.07692307692307693,
+  "organization_headcount_twenty_four_month_growth": 0.4
+ },
+ {
+  "id": "54a1347769702d333de35000",
+  "name": "Tipco Asphalt Public Company Limited",
+  "website_url": "http://www.tipcoasphalt.com",
+  "linkedin_url": "http://www.linkedin.com/company/tipco-asphalt",
+  "facebook_url": "https://facebook.com/pages/Tipco-Asphalt-Public-Company-Limited/125302614220119",
+  "languages": [],
+  "phone": "+66 2 273 6000",
+  "linkedin_uid": "311955",
+  "founded_year": 1979,
+  "publicly_traded_symbol": "TASCO-R.BK",
+  "publicly_traded_exchange": "set",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a446939cd8f180001916972/picture",
+  "primary_domain": "tipcoasphalt.com",
+  "sic_codes": [
+   "2911",
+   "2951",
+   "1611"
+  ],
+  "naics_codes": [
+   "324110",
+   "324199",
+   "237310"
+  ],
+  "primary_phone": {
+   "number": "+66 2 273 6000",
+   "sanitized_number": "+6622736000"
+  },
+  "sanitized_phone": "+6622736000",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue_printed": "853.0M",
+  "organization_revenue": 852996000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.0072992700729927,
+  "organization_headcount_twelve_month_growth": 0.02255639097744361,
+  "organization_headcount_twenty_four_month_growth": 0.0303030303030303
+ },
+ {
+  "id": "63b64e1700095e00010dea66",
+  "name": "Talent First",
+  "website_url": "http://www.talentfirst.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/talent-first-thailand",
+  "languages": [],
+  "linkedin_uid": "82076289",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66e678adda1ed100010d9e6b/picture",
+  "primary_domain": "talentfirst.co.th",
+  "sic_codes": [
+   "7361"
+  ],
+  "naics_codes": [
+   "561311",
+   "541612"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.05,
+  "organization_headcount_twelve_month_growth": 0.05,
+  "organization_headcount_twenty_four_month_growth": 0.05
+ },
+ {
+  "id": "5e5643b7667ed50001121ab9",
+  "name": "Audaxia Global",
+  "website_url": "http://www.audaxia-global.com",
+  "linkedin_url": "http://www.linkedin.com/company/audaxia-global",
+  "languages": [],
+  "linkedin_uid": "14488141",
+  "founded_year": 2018,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/696087e7469523000185eeb2/picture",
+  "primary_domain": "audaxia-global.com",
+  "sic_codes": [
+   "1381",
+   "7361",
+   "8742"
+  ],
+  "naics_codes": [
+   "21311",
+   "561311",
+   "541611"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.02941176470588235,
+  "organization_headcount_twelve_month_growth": 0.03125,
+  "organization_headcount_twenty_four_month_growth": 0.0
+ },
+ {
+  "id": "5b84fa7b324d4422f7b36225",
+  "name": "Samsung E&A (Thailand) Co., Ltd.",
+  "linkedin_url": "http://www.linkedin.com/company/samsungeandathailand",
+  "languages": [],
+  "linkedin_uid": "14393238",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/670dce3d35fe59000160093e/picture",
+  "naics_codes": [
+   "236210",
+   "541330",
+   "237990"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": -0.0119047619047619,
+  "organization_headcount_twenty_four_month_growth": -0.2844827586206897
+ },
+ {
+  "id": "55ea69f4f3e5bb774c004d88",
+  "name": "Pruksa Holding Public Company Limited",
+  "website_url": "http://www.psh.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/pruksa-holding-public-company-limited",
+  "facebook_url": "https://facebook.com/PruksaFamilyClub",
+  "languages": [],
+  "phone": "+66 2 080 1739",
+  "linkedin_uid": "8473426",
+  "founded_year": 1993,
+  "publicly_traded_symbol": "PSH-R.BK",
+  "publicly_traded_exchange": "set",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6962a5f13ff79c000101c7dd/picture",
+  "primary_domain": "psh.co.th",
+  "sic_codes": [
+   "65"
+  ],
+  "naics_codes": [
+   "236117"
+  ],
+  "primary_phone": {
+   "number": "+66 2 080 1739",
+   "sanitized_number": "+6620801739"
+  },
+  "sanitized_phone": "+6620801739",
+  "num_languages": 0,
+  "num_retail_locations": 100,
+  "organization_revenue_printed": "445.2M",
+  "organization_revenue": 445217000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.008695652173913044,
+  "organization_headcount_twelve_month_growth": -0.01276595744680851,
+  "organization_headcount_twenty_four_month_growth": -0.1654676258992806
+ },
+ {
+  "id": "55eac4bdf3e5bb4548002991",
+  "name": "Gunkul Engineering Public Company Limited",
+  "website_url": "http://www.gunkul.com",
+  "linkedin_url": "http://www.linkedin.com/company/gunkul-engineering",
+  "twitter_url": "https://twitter.com/Gunkul_Group",
+  "facebook_url": "https://facebook.com/GUNKUL.G",
+  "languages": [
+   "English"
+  ],
+  "phone": "+66 2 242 5800",
+  "linkedin_uid": "10067601",
+  "founded_year": 1982,
+  "publicly_traded_symbol": "GUNKUL-R.BK",
+  "publicly_traded_exchange": "set",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a4b4444a6e626000192e601/picture",
+  "primary_domain": "gunkul.com",
+  "sic_codes": [
+   "3621"
+  ],
+  "naics_codes": [
+   "221114",
+   "335311",
+   "237130"
+  ],
+  "primary_phone": {
+   "number": "+66 2 242 5800",
+   "sanitized_number": "+6622425800"
+  },
+  "sanitized_phone": "+6622425800",
+  "num_languages": 1,
+  "num_retail_locations": 0,
+  "organization_revenue_printed": "259.5M",
+  "organization_revenue": 259520000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0196078431372549,
+  "organization_headcount_twelve_month_growth": 0.1908396946564886,
+  "organization_headcount_twenty_four_month_growth": 0.2093023255813954
+ },
+ {
+  "id": "5e576b1e111d140001a2c889",
+  "name": "JST Group",
+  "website_url": "http://www.jst-group.com",
+  "linkedin_url": "http://www.linkedin.com/company/jst-group",
+  "languages": [
+   "English"
+  ],
+  "phone": "+66 2 022 8000",
+  "linkedin_uid": "239569",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6879eeebe8bb740001573996/picture",
+  "primary_domain": "jst-group.com",
+  "sic_codes": [
+   "1389"
+  ],
+  "naics_codes": [
+   "213112",
+   "561320",
+   "541330"
+  ],
+  "primary_phone": {
+   "number": "+66 2 022 8000",
+   "sanitized_number": "+6620228000"
+  },
+  "sanitized_phone": "+6620228000",
+  "num_languages": 1,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": -0.04651162790697674,
+  "organization_headcount_twenty_four_month_growth": 0.0
+ },
+ {
+  "id": "54a129f669702db64805d601",
+  "name": "AWR Lloyd",
+  "website_url": "http://www.awrlloyd.com",
+  "linkedin_url": "http://www.linkedin.com/company/awrlloyd",
+  "twitter_url": "https://twitter.com/awrlloyd",
+  "facebook_url": "https://facebook.com/awrlloydblog",
+  "languages": [],
+  "linkedin_uid": "1508634",
+  "founded_year": 2000,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66eba985599a5a000165ccda/picture",
+  "primary_domain": "awrlloyd.com",
+  "sic_codes": [
+   "8742",
+   "6211"
+  ],
+  "naics_codes": [
+   "523150",
+   "541611"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.1311475409836066,
+  "organization_headcount_twelve_month_growth": 0.2321428571428572,
+  "organization_headcount_twenty_four_month_growth": 0.2105263157894737
+ },
+ {
+  "id": "6127580b7ddbd600a4e873f5",
+  "name": "Avalon Analytics",
+  "website_url": "http://www.avalon-analytics.com",
+  "linkedin_url": "http://www.linkedin.com/company/avalon-analytics",
+  "facebook_url": "https://www.facebook.com/AvalonAnalyticsBusinessIntelligence/",
+  "languages": [],
+  "phone": "+66 2 121 7431",
+  "linkedin_uid": "72330234",
+  "founded_year": 2020,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6710a7fb6083710001ee481c/picture",
+  "primary_domain": "avalon-analytics.com",
+  "sic_codes": [
+   "7375",
+   "7372",
+   "7011"
+  ],
+  "naics_codes": [
+   "54161",
+   "513210",
+   "721110"
+  ],
+  "primary_phone": {
+   "number": "+66 2 121 7431",
+   "sanitized_number": "+6621217431"
+  },
+  "sanitized_phone": "+6621217431",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.1875,
+  "organization_headcount_twelve_month_growth": 0.2666666666666667,
+  "organization_headcount_twenty_four_month_growth": 0.1875
+ },
+ {
+  "id": "5f4a972c368cd60001a7ff6b",
+  "name": "SCG INTERNATIONAL",
+  "website_url": "http://www.scginternational.com",
+  "linkedin_url": "http://www.linkedin.com/company/scg-international",
+  "facebook_url": "https://www.facebook.com/SCGofficialpage",
+  "languages": [],
+  "phone": "+66 2 586 2222",
+  "linkedin_uid": "65262232",
+  "founded_year": 1978,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a74565e03a10f000146e945/picture",
+  "primary_domain": "scginternational.com",
+  "sic_codes": [
+   "7389"
+  ],
+  "naics_codes": [
+   "54133",
+   "48851",
+   "423",
+   "424"
+  ],
+  "primary_phone": {
+   "number": "+66 2 586 2222",
+   "sanitized_number": "+6625862222"
+  },
+  "sanitized_phone": "+6625862222",
+  "owned_by_organization_id": "57c4f685a6da986a77cdce4c",
+  "owned_by_organization": {
+   "id": "57c4f685a6da986a77cdce4c",
+   "name": "SCG",
+   "website_url": "http://www.scg.com"
+  },
+  "num_languages": 0,
+  "owned_by_chain": [
+   "57c4f685a6da986a77cdce4c"
+  ],
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0131578947368421,
+  "organization_headcount_twelve_month_growth": -0.01282051282051282,
+  "organization_headcount_twenty_four_month_growth": -0.09941520467836257
+ },
+ {
+  "id": "54a23d097468693a7ea2c618",
+  "name": "KASIKORNBANK",
+  "website_url": "http://www.kasikornbank.com",
+  "linkedin_url": "http://www.linkedin.com/company/kasikorn-bank",
+  "twitter_url": "https://twitter.com/KBank_Live",
+  "facebook_url": "https://facebook.com/KBankLive/",
+  "languages": [],
+  "alexa_ranking": 3730,
+  "phone": "+66 2 222 0000",
+  "linkedin_uid": "59609",
+  "founded_year": 1945,
+  "publicly_traded_symbol": "KPCPY",
+  "publicly_traded_exchange": "otc",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69a4774236ee670001f49ecd/picture",
+  "primary_domain": "kasikornbank.com",
+  "sic_codes": [
+   "6021",
+   "6282",
+   "6211"
+  ],
+  "naics_codes": [
+   "522110",
+   "523940",
+   "523150"
+  ],
+  "primary_phone": {
+   "number": "+66 2 222 0000",
+   "sanitized_number": "+6622220000"
+  },
+  "sanitized_phone": "+6622220000",
+  "num_languages": 0,
+  "num_retail_locations": 900,
+  "organization_revenue_printed": "8.1B",
+  "organization_revenue": 8142050000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.001116486788239672,
+  "organization_headcount_twelve_month_growth": -0.005925925925925926,
+  "organization_headcount_twenty_four_month_growth": -0.01972242512783053
+ },
+ {
+  "id": "5faba81098920f00dbc96407",
+  "name": "Kiatnakin Phatra Financial Group",
+  "website_url": "http://www.kkpfg.com",
+  "linkedin_url": "http://www.linkedin.com/company/kiatnakin-phatra-financial-group",
+  "facebook_url": "https://facebook.com/KiatnakinPhatra/",
+  "languages": [],
+  "alexa_ranking": 116385,
+  "linkedin_uid": "68615195",
+  "founded_year": 1971,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a44051201bace0001f0d2f6/picture",
+  "primary_domain": "kkpfg.com",
+  "sic_codes": [
+   "6021",
+   "6211",
+   "6282"
+  ],
+  "naics_codes": [
+   "522110",
+   "523150",
+   "523940"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 64,
+  "organization_revenue_printed": "806M",
+  "organization_revenue": 806000000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.01207464324917673,
+  "organization_headcount_twelve_month_growth": 0.04416761041902605,
+  "organization_headcount_twenty_four_month_growth": 0.05131128848346636
+ },
+ {
+  "id": "5dadb5f8611f790098d442f9",
+  "name": "Bitazza",
+  "website_url": "http://www.bitazza.com",
+  "linkedin_url": "http://www.linkedin.com/company/bitazza",
+  "languages": [],
+  "alexa_ranking": 288968,
+  "linkedin_uid": "18853034",
+  "founded_year": 2018,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/68bd183cb5b20f0001776042/picture",
+  "primary_domain": "bitazza.com",
+  "sic_codes": [
+   "6211"
+  ],
+  "naics_codes": [
+   "523150"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.02083333333333333,
+  "organization_headcount_twelve_month_growth": -0.1607142857142857,
+  "organization_headcount_twenty_four_month_growth": -0.0784313725490196
+ },
+ {
+  "id": "5ea4eb5c64fe1b008c0c8e33",
+  "name": "SCB 10X",
+  "website_url": "http://www.scb10x.com",
+  "linkedin_url": "http://www.linkedin.com/company/scb10x",
+  "twitter_url": " https://twitter.com/SCB10X_OFFICIAL",
+  "facebook_url": "https://www.facebook.com/SCB10X/",
+  "languages": [],
+  "phone": "+66 2 795 7828",
+  "linkedin_uid": "31564159",
+  "founded_year": 2020,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69acb62d6a1c460001d34195/picture",
+  "primary_domain": "scb10x.com",
+  "sic_codes": [
+   "6799"
+  ],
+  "naics_codes": [
+   "5231",
+   "523940"
+  ],
+  "primary_phone": {
+   "number": "+66 2 795 7828",
+   "sanitized_number": "+6627957828"
+  },
+  "sanitized_phone": "+6627957828",
+  "owned_by_organization_id": "63d1d8b67354cb00e37ca339",
+  "owned_by_organization": {
+   "id": "63d1d8b67354cb00e37ca339",
+   "name": "SCBX",
+   "website_url": "http://www.scbx.com"
+  },
+  "num_languages": 0,
+  "owned_by_chain": [
+   "63d1d8b67354cb00e37ca339"
+  ],
+  "num_retail_locations": 0,
+  "organization_revenue_printed": "15M",
+  "organization_revenue": 15000000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.02083333333333333,
+  "organization_headcount_twelve_month_growth": -0.1090909090909091,
+  "organization_headcount_twenty_four_month_growth": -0.2575757575757576
+ },
+ {
+  "id": "5f45fcc5a4f66a0001a37636",
+  "name": "ท๊อป จิรายุส ทรัพย์ศรีโสภา - Topp Jirayut Srupsrisopa",
+  "website_url": "http://www.toppjirayut.com",
+  "linkedin_url": "http://www.linkedin.com/company/toppjirayutofficial",
+  "languages": [],
+  "linkedin_uid": "42310445",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/670c4cf3a4e94f000191e25f/picture",
+  "primary_domain": "toppjirayut.com",
+  "sic_codes": [
+   "6211"
+  ],
+  "naics_codes": [
+   "5231",
+   "523999"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false
+ },
+ {
+  "id": "55ea56cef3e5bb330f002e1c",
+  "name": "Asian Honda Motor Co., Ltd.",
+  "website_url": "http://www.hondaasiaoceania.com",
+  "linkedin_url": "http://www.linkedin.com/company/asian-honda-motor-co-ltd-",
+  "languages": [
+   "English"
+  ],
+  "linkedin_uid": "8851191",
+  "founded_year": 1964,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a5d981fd3d58700016a9b07/picture",
+  "primary_domain": "hondaasiaoceania.com",
+  "sic_codes": [
+   "3711"
+  ],
+  "naics_codes": [
+   "33639",
+   "551114",
+   "423120",
+   "493110"
+  ],
+  "num_languages": 1,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.01298701298701299,
+  "organization_headcount_twelve_month_growth": 0.06363636363636363,
+  "organization_headcount_twenty_four_month_growth": 0.1037735849056604
+ },
+ {
+  "id": "6217baf2d9831b00dbd02648",
+  "name": "Pi Securities Public Company Limited",
+  "website_url": "http://www.pi.financial",
+  "linkedin_url": "http://www.linkedin.com/company/pisecurities",
+  "facebook_url": "https://www.facebook.com/pisecurities",
+  "languages": [],
+  "alexa_ranking": 113368,
+  "linkedin_uid": "78792859",
+  "founded_year": 2022,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69adc9808ef5e00001c47239/picture",
+  "primary_domain": "pi.financial",
+  "sic_codes": [
+   "6211"
+  ],
+  "naics_codes": [
+   "523150",
+   "523940"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 8,
+  "organization_revenue_printed": "40M",
+  "organization_revenue": 40000000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.006578947368421052,
+  "organization_headcount_twelve_month_growth": -0.01290322580645161,
+  "organization_headcount_twenty_four_month_growth": -0.1546961325966851
+ },
+ {
+  "id": "5591ff347369641878341500",
+  "name": "The Stock Exchange of Thailand",
+  "website_url": "http://www.set.or.th",
+  "linkedin_url": "http://www.linkedin.com/company/the-stock-exchange-of-thailand",
+  "facebook_url": "https://www.facebook.com/set.or.th",
+  "languages": [],
+  "alexa_ranking": 13339,
+  "phone": "+66 2 009 9999",
+  "linkedin_uid": "38287",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a02c62ef9062000014ccfeb/picture",
+  "primary_domain": "set.or.th",
+  "sic_codes": [
+   "6722",
+   "6211"
+  ],
+  "naics_codes": [
+   "5231",
+   "523210"
+  ],
+  "primary_phone": {
+   "number": "+66 2 009 9999",
+   "sanitized_number": "+6620099999"
+  },
+  "sanitized_phone": "+6620099999",
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue_printed": "240M",
+  "organization_revenue": 240000000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.006329113924050633,
+  "organization_headcount_twelve_month_growth": 0.0148936170212766,
+  "organization_headcount_twenty_four_month_growth": 0.05764966740576496
+ },
+ {
+  "id": "54a122a769702d918cc5de02",
+  "name": "Inspire Ventures (Venture Builder ASEAN)",
+  "website_url": "http://www.inspireventures.com",
+  "linkedin_url": "http://www.linkedin.com/company/inspire-ventures-asean-",
+  "languages": [
+   "English"
+  ],
+  "linkedin_uid": "3975633",
+  "founded_year": 2012,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/673fd17143bf150001406bb3/picture",
+  "primary_domain": "inspireventures.com",
+  "sic_codes": [
+   "6799"
+  ],
+  "naics_codes": [
+   "5231",
+   "523940"
+  ],
+  "num_languages": 1,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": 0.0
+ },
+ {
+  "id": "642106b08eb41200011733af",
+  "name": "Orbix Holdings Company Limited",
+  "website_url": "http://www.orbixtrade.com",
+  "linkedin_url": "http://www.linkedin.com/company/orbixholdings",
+  "languages": [],
+  "linkedin_uid": "90595583",
+  "founded_year": 2022,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6979956f098bfb0001942577/picture",
+  "primary_domain": "orbixtrade.com",
+  "sic_codes": [
+   "6211"
+  ],
+  "naics_codes": [
+   "5231",
+   "523210",
+   "519290"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.06451612903225806,
+  "organization_headcount_twelve_month_growth": 0.1785714285714286,
+  "organization_headcount_twenty_four_month_growth": 0.8333333333333334
+ },
+ {
+  "id": "646871a611fd14010626acb1",
+  "name": "A2D Ventures",
+  "website_url": "http://www.a2dventures.com",
+  "linkedin_url": "http://www.linkedin.com/company/a2d-sea",
+  "facebook_url": "https://www.facebook.com/a2dventures2023",
+  "languages": [],
+  "linkedin_uid": "90699070",
+  "founded_year": 2023,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69a509ccaa65ca0001004930/picture",
+  "primary_domain": "a2dventures.com",
+  "sic_codes": [
+   "6732"
+  ],
+  "naics_codes": [
+   "5231",
+   "523940"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.125,
+  "organization_headcount_twelve_month_growth": -0.06666666666666667,
+  "organization_headcount_twenty_four_month_growth": 0.1666666666666667
+ },
+ {
+  "id": "55923a8073696470d3e61600",
+  "name": "TISCO Financial Group",
+  "website_url": "http://www.tisco.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/tisco",
+  "languages": [],
+  "phone": "+66 2 633 6000",
+  "linkedin_uid": "27884",
+  "founded_year": 1969,
+  "publicly_traded_symbol": "TISCO.BK",
+  "publicly_traded_exchange": "set",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69ae33e1ee4a090001f04bc4/picture",
+  "primary_domain": "tisco.co.th",
+  "sic_codes": [
+   "6021",
+   "6211",
+   "6282"
+  ],
+  "naics_codes": [
+   "522110",
+   "523150",
+   "523940"
+  ],
+  "primary_phone": {
+   "number": "+66 2 633 6000",
+   "sanitized_number": "+6626336000"
+  },
+  "sanitized_phone": "+6626336000",
+  "num_languages": 0,
+  "num_retail_locations": 650,
+  "organization_revenue_printed": "804.3M",
+  "organization_revenue": 804308000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.002100840336134454,
+  "organization_headcount_twelve_month_growth": 0.01931330472103004,
+  "organization_headcount_twenty_four_month_growth": 0.02150537634408602
+ },
+ {
+  "id": "5fcb08135672fd0001a0bd6b",
+  "name": "Thailand Capital Market Development Fund",
+  "website_url": "http://www.cmdf.or.th",
+  "linkedin_url": "http://www.linkedin.com/company/thailand-capital-market-development-fund",
+  "facebook_url": "https://www.facebook.com/cmdf.or.th",
+  "languages": [],
+  "linkedin_uid": "67507567",
+  "founded_year": 2019,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66da7986d30562000138b439/picture",
+  "primary_domain": "cmdf.or.th",
+  "sic_codes": [
+   "8732"
+  ],
+  "naics_codes": [
+   "54172",
+   "813211",
+   "523940"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": 0.06666666666666667
+ },
+ {
+  "id": "54a129f669702db64805d601",
+  "name": "AWR Lloyd",
+  "website_url": "http://www.awrlloyd.com",
+  "linkedin_url": "http://www.linkedin.com/company/awrlloyd",
+  "twitter_url": "https://twitter.com/awrlloyd",
+  "facebook_url": "https://facebook.com/awrlloydblog",
+  "languages": [],
+  "linkedin_uid": "1508634",
+  "founded_year": 2000,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66eba985599a5a000165ccda/picture",
+  "primary_domain": "awrlloyd.com",
+  "sic_codes": [
+   "8742",
+   "6211"
+  ],
+  "naics_codes": [
+   "523150",
+   "541611"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.1311475409836066,
+  "organization_headcount_twelve_month_growth": 0.2321428571428572,
+  "organization_headcount_twenty_four_month_growth": 0.2105263157894737
+ },
+ {
+  "id": "5569d4277369642541099f00",
+  "name": "Jitta",
+  "website_url": "http://www.jitta.com",
+  "linkedin_url": "http://www.linkedin.com/company/jitta",
+  "twitter_url": "https://twitter.com/jittaworld",
+  "facebook_url": "https://www.facebook.com/jittaworld",
+  "languages": [
+   "English"
+  ],
+  "alexa_ranking": 103522,
+  "linkedin_uid": "3487115",
+  "founded_year": 2013,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6737246e609241000189d05d/picture",
+  "primary_domain": "jitta.com",
+  "sic_codes": [
+   "6211"
+  ],
+  "naics_codes": [
+   "5231",
+   "523940",
+   "523999"
+  ],
+  "num_languages": 1,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": -0.02898550724637681,
+  "organization_headcount_twenty_four_month_growth": -0.05633802816901409
+ },
+ {
+  "id": "556d9a5e73696411de824f01",
+  "name": "Kiatnakin Bank",
+  "linkedin_url": "http://www.linkedin.com/company/kkpfg",
+  "languages": [
+   "English"
+  ],
+  "linkedin_uid": "2121001",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69afd20be269ed0001bdd71e/picture",
+  "sic_codes": [
+   "6021",
+   "6211"
+  ],
+  "naics_codes": [
+   "522110",
+   "523150"
+  ],
+  "num_languages": 1,
+  "num_retail_locations": 65,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.007751937984496124,
+  "organization_headcount_twenty_four_month_growth": -0.01515151515151515
+ },
+ {
+  "id": "5ed0b0231ab6c500014b0fcb",
+  "name": "Kiatnakin Phatra Securities",
+  "website_url": "http://www.phatrasecurities.com",
+  "linkedin_url": "http://www.linkedin.com/company/phatra-securities-plc",
+  "languages": [],
+  "phone": "1-230-590-0000",
+  "linkedin_uid": "146429",
+  "founded_year": 1997,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/68cbe752493ebf00010f687f/picture",
+  "primary_domain": "phatrasecurities.com",
+  "sic_codes": [
+   "6211"
+  ],
+  "naics_codes": [
+   "523150",
+   "523940"
+  ],
+  "primary_phone": {
+   "number": "1-230-590-0000",
+   "sanitized_number": "+12305900000"
+  },
+  "sanitized_phone": "+12305900000",
+  "num_languages": 0,
+  "num_retail_locations": 4,
+  "organization_revenue_printed": "32.6M",
+  "organization_revenue": 32569000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.02,
+  "organization_headcount_twelve_month_growth": 0.01324503311258278,
+  "organization_headcount_twenty_four_month_growth": 0.108695652173913
+ },
+ {
+  "id": "5b132b69a6da98dcb892f581",
+  "name": "Beacon Venture Capital",
+  "website_url": "http://www.beaconvc.fund",
+  "linkedin_url": "http://www.linkedin.com/company/beaconvc",
+  "facebook_url": "https://www.facebook.com/BeaconVenture/",
+  "languages": [],
+  "linkedin_uid": "13349516",
+  "founded_year": 2016,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/686a9748baf090000134f819/picture",
+  "primary_domain": "beaconvc.fund",
+  "naics_codes": [
+   "523940"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": -0.06666666666666667,
+  "organization_headcount_twenty_four_month_growth": -0.06666666666666667
+ },
+ {
+  "id": "5569585373696425e2300c00",
+  "name": "Coins.co.th",
+  "website_url": "http://www.coins.co.th",
+  "angellist_url": "http://angel.co/coinsph",
+  "linkedin_url": "http://www.linkedin.com/company/coins-co-th-",
+  "twitter_url": "http://www.twitter.com/coinsph",
+  "facebook_url": "https://www.facebook.com/coinsph",
+  "languages": [
+   "English"
+  ],
+  "phone": "+66 2 038 5038",
+  "linkedin_uid": "7591218",
+  "founded_year": 2014,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/670c57252d22bc0001617e92/picture",
+  "primary_domain": "coins.co.th",
+  "sic_codes": [
+   "6211"
+  ],
+  "naics_codes": [
+   "52315",
+   "523210",
+   "523999"
+  ],
+  "primary_phone": {
+   "number": "+66 2 038 5038",
+   "sanitized_number": "+6620385038"
+  },
+  "sanitized_phone": "+6620385038",
+  "owned_by_organization_id": "5cb850d780f93eb7470dae1b",
+  "owned_by_organization": {
+   "id": "5cb850d780f93eb7470dae1b",
+   "name": "GOJEK",
+   "website_url": "http://www.gojek.com"
+  },
+  "num_languages": 1,
+  "owned_by_chain": [
+   "5cb850d780f93eb7470dae1b",
+   "6103dda47f507200a40fc675",
+   "57c50647a6da986a8f42dd34",
+   "54a11dba69702d8ed49f2401"
+  ],
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": -0.1333333333333333,
+  "organization_headcount_twenty_four_month_growth": -0.1333333333333333
+ },
+ {
+  "id": "5a9f12eea6da98d997802f63",
+  "name": "Robowealth Group",
+  "website_url": "http://www.robowealth.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/robowealth",
+  "facebook_url": "https://www.facebook.com/Robowealth/",
+  "languages": [],
+  "phone": "+66 2 026 6222",
+  "linkedin_uid": "13391736",
+  "founded_year": 2017,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66f6351726e0030001df648d/picture",
+  "primary_domain": "robowealth.co.th",
+  "sic_codes": [
+   "6732"
+  ],
+  "naics_codes": [
+   "5231",
+   "523940"
+  ],
+  "primary_phone": {
+   "number": "+66 2 026 6222",
+   "sanitized_number": "+6620266222"
+  },
+  "sanitized_phone": "+6620266222",
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": -0.07894736842105263
+ },
+ {
+  "id": "5f4b5c11c8b8e800012ed080",
+  "name": "Bualuang Securities",
+  "website_url": "http://www.bualuang.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/bualuangsec",
+  "twitter_url": "https://twitter.com/bualuangsec",
+  "facebook_url": "https://facebook.com/bualuangsec",
+  "languages": [],
+  "alexa_ranking": 52184,
+  "linkedin_uid": "14632597",
+  "founded_year": 2004,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/68cceceef6ca3e0001ed646f/picture",
+  "primary_domain": "bualuang.co.th",
+  "sic_codes": [
+   "6211"
+  ],
+  "naics_codes": [
+   "523150",
+   "523940"
+  ],
+  "owned_by_organization_id": "6181a7c8e4708600fa3ccfe7",
+  "owned_by_organization": {
+   "id": "6181a7c8e4708600fa3ccfe7",
+   "name": "Bangkok Bank",
+   "website_url": "http://www.bangkokbank.com"
+  },
+  "num_languages": 0,
+  "owned_by_chain": [
+   "6181a7c8e4708600fa3ccfe7"
+  ],
+  "num_retail_locations": 28,
+  "organization_revenue_printed": "84M",
+  "organization_revenue": 84000000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0261437908496732,
+  "organization_headcount_twelve_month_growth": 0.0261437908496732,
+  "organization_headcount_twenty_four_month_growth": 0.1134751773049645
+ },
+ {
+  "id": "63ad418571d99d00a3c30f67",
+  "name": "Dime! by Kiatnakin Phatra",
+  "website_url": "http://www.dime.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/dimebykkp",
+  "twitter_url": "https://twitter.com/dimefinance",
+  "facebook_url": "https://www.facebook.com/dime.finance.th",
+  "languages": [],
+  "linkedin_uid": "89895384",
+  "founded_year": 2021,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6884cc4ffd0bee00013dd487/picture",
+  "primary_domain": "dime.co.th",
+  "sic_codes": [
+   "6289",
+   "6211",
+   "6282"
+  ],
+  "naics_codes": [
+   "522110",
+   "523150",
+   "523940"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue_printed": "10M",
+  "organization_revenue": 10000000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.02459016393442623,
+  "organization_headcount_twelve_month_growth": 0.08695652173913043,
+  "organization_headcount_twenty_four_month_growth": 0.03305785123966942
+ },
+ {
+  "id": "64d24e7303037e008b011292",
+  "name": "Confidential Financial Services",
+  "website_url": "http://www.confidentialmgt.com",
+  "linkedin_url": "http://www.linkedin.com/company/confidentialassetmanagement",
+  "languages": [],
+  "phone": "+1 248-540-7511",
+  "linkedin_uid": "95773314",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/677a5f2d275d250001b2c42a/picture",
+  "primary_domain": "confidentialmgt.com",
+  "sic_codes": [
+   "6282"
+  ],
+  "naics_codes": [
+   "523940",
+   "523150"
+  ],
+  "primary_phone": {
+   "number": "+1 248-540-7511",
+   "sanitized_number": "+12485407511"
+  },
+  "sanitized_phone": "+12485407511",
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.04901960784313725,
+  "organization_headcount_twelve_month_growth": 0.1505376344086022,
+  "organization_headcount_twenty_four_month_growth": 0.6212121212121212
+ },
+ {
+  "id": "623a9cdf3beb70008d9de15a",
+  "name": "Liberator Securities",
+  "website_url": "http://www.liberator.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/liberatorsecurities",
+  "languages": [],
+  "phone": "+66 2 760 6999",
+  "linkedin_uid": "79505327",
+  "founded_year": 2022,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/690d7dcd6b6eae0001c888d7/picture",
+  "primary_domain": "liberator.co.th",
+  "sic_codes": [
+   "6732",
+   "6211"
+  ],
+  "naics_codes": [
+   "523150"
+  ],
+  "primary_phone": {
+   "number": "+66 2 760 6999",
+   "sanitized_number": "+6627606999"
+  },
+  "sanitized_phone": "+6627606999",
+  "num_languages": 0,
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": -0.09302325581395349,
+  "organization_headcount_twenty_four_month_growth": -0.1136363636363636
+ },
+ {
+  "id": "6273f93a5c76fa00a5d56eda",
+  "name": "Maybank Securities (Thailand) Public Company Limited",
+  "website_url": "http://www.maybank.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/maybank-securities-thailand-plc",
+  "twitter_url": "https://twitter.com/mymaybank",
+  "facebook_url": "https://www.facebook.com/Maybank",
+  "languages": [],
+  "phone": "+66 2 658 5050",
+  "linkedin_uid": "81474507",
+  "founded_year": 1990,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69b4e913de057b00018be50d/picture",
+  "primary_domain": "maybank.co.th",
+  "sic_codes": [
+   "6211"
+  ],
+  "naics_codes": [
+   "523150",
+   "523940"
+  ],
+  "primary_phone": {
+   "number": "+66 2 658 5050",
+   "sanitized_number": "+6626585050"
+  },
+  "sanitized_phone": "+6626585050",
+  "num_languages": 0,
+  "num_retail_locations": 29,
+  "organization_revenue_printed": "67M",
+  "organization_revenue": 67000000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.02702702702702703,
+  "organization_headcount_twelve_month_growth": 0.01785714285714286,
+  "organization_headcount_twenty_four_month_growth": 0.04587155963302753
+ },
+ {
+  "id": "5b153dc3a6da98710b629853",
+  "name": "Digital Ventures Co., Ltd.",
+  "website_url": "http://www.dv.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/digitalventuresth",
+  "twitter_url": "https://twitter.com/scb_dv",
+  "facebook_url": "https://facebook.com/digitalventuresth",
+  "languages": [],
+  "phone": "+66 2 061 6166",
+  "linkedin_uid": "13405762",
+  "founded_year": 2016,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/68c723b09a20e0000118fd6c/picture",
+  "primary_domain": "dv.co.th",
+  "naics_codes": [
+   "523940",
+   "523999"
+  ],
+  "primary_phone": {
+   "number": "+66 2 061 6166",
+   "sanitized_number": "+6620616166"
+  },
+  "sanitized_phone": "+6620616166",
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": -0.02564102564102564,
+  "organization_headcount_twenty_four_month_growth": -0.05
+ },
+ {
+  "id": "54a11cb969702d8ccc4ac200",
+  "name": "MBMG Group",
+  "website_url": "http://www.mbmg-group.com",
+  "linkedin_url": "http://www.linkedin.com/company/mbmg-group",
+  "twitter_url": "https://twitter.com/mbmg_group",
+  "facebook_url": "https://th-th.facebook.com/MBMGGroup/",
+  "languages": [
+   "English"
+  ],
+  "phone": "+66 2 665 2534",
+  "linkedin_uid": "276100",
+  "founded_year": 1996,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66fe2de71756a90001ba0f34/picture",
+  "primary_domain": "mbmg-group.com",
+  "sic_codes": [
+   "6732",
+   "6282",
+   "8721",
+   "8111"
+  ],
+  "naics_codes": [
+   "5231",
+   "523940",
+   "541211",
+   "541110"
+  ],
+  "primary_phone": {
+   "number": "+66 2 665 2534",
+   "sanitized_number": "+6626652534"
+  },
+  "sanitized_phone": "+6626652534",
+  "num_languages": 1,
+  "num_retail_locations": 3,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": 0.0
+ },
+ {
+  "id": "63bafe5d03e59600011867db",
+  "name": "XSpring",
+  "website_url": "http://www.xspringcapital.com",
+  "linkedin_url": "http://www.linkedin.com/company/xspring",
+  "twitter_url": "https://twitter.com/XSpringCapital",
+  "facebook_url": "https://facebook.com/XSpringDigital/",
+  "languages": [],
+  "phone": "+66 2 624 6399",
+  "linkedin_uid": "26611610",
+  "founded_year": 2018,
+  "publicly_traded_symbol": "XPG.BK",
+  "publicly_traded_exchange": "set",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66d3f1a7ad52320001ccbcd2/picture",
+  "primary_domain": "xspringcapital.com",
+  "sic_codes": [
+   "6211"
+  ],
+  "naics_codes": [
+   "5231"
+  ],
+  "primary_phone": {
+   "number": "+66 2 624 6399",
+   "sanitized_number": "+6626246399"
+  },
+  "sanitized_phone": "+6626246399",
+  "num_languages": 0,
+  "num_retail_locations": 6,
+  "organization_revenue_printed": "32.2M",
+  "organization_revenue": 32190000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.015625,
+  "organization_headcount_twelve_month_growth": 0.03174603174603174,
+  "organization_headcount_twenty_four_month_growth": 0.03174603174603174
+ },
+ {
+  "id": "556da3a073696411fdc15101",
+  "name": "KGI Securities Thailand",
+  "website_url": "http://www.kgieworld.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/kgi-securities-thailand-pcl-kgi-",
+  "twitter_url": "https://twitter.com/kgithailand",
+  "facebook_url": "https://facebook.com/people/KGI-Securities/100067822737211/",
+  "languages": [],
+  "alexa_ranking": 264755,
+  "phone": "+66 2 658 8888",
+  "linkedin_uid": "5807034",
+  "founded_year": 1975,
+  "publicly_traded_symbol": "KGI-R.BK",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/69a4c0301f72d00001db8ddc/picture",
+  "primary_domain": "kgieworld.co.th",
+  "sic_codes": [
+   "6211"
+  ],
+  "naics_codes": [
+   "5231"
+  ],
+  "primary_phone": {
+   "number": "+66 2 658 8888",
+   "sanitized_number": "+6626588888"
+  },
+  "sanitized_phone": "+6626588888",
+  "owned_by_organization_id": "5591fb0073696419d8ca0c00",
+  "owned_by_organization": {
+   "id": "5591fb0073696419d8ca0c00",
+   "name": "KGI 凱基",
+   "website_url": "http://www.kgi.com.hk"
+  },
+  "num_languages": 0,
+  "owned_by_chain": [
+   "5591fb0073696419d8ca0c00",
+   "5d0a8842f65125308e4720d2"
+  ],
+  "num_retail_locations": 6,
+  "organization_revenue_printed": "113M",
+  "organization_revenue": 113000000.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.02666666666666667,
+  "organization_headcount_twelve_month_growth": 0.08450704225352113,
+  "organization_headcount_twenty_four_month_growth": 0.1666666666666667
+ },
+ {
+  "id": "5a9d19aea6da98d938b91ad2",
+  "name": "Trinity Securities Group",
+  "website_url": "http://www.trinitythai.com",
+  "linkedin_url": "http://www.linkedin.com/company/trinity-securities-group",
+  "facebook_url": "http://www.facebook.com/pages/Trinity-Securities/177733592242938",
+  "languages": [],
+  "phone": "+66 2 801 9100",
+  "linkedin_uid": "13265164",
+  "founded_year": 2001,
+  "publicly_traded_symbol": "TNITY-R.BK",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a4fd363863db1000148721c/picture",
+  "primary_domain": "trinitythai.com",
+  "sic_codes": [
+   "6211",
+   "6282"
+  ],
+  "naics_codes": [
+   "523150",
+   "523940"
+  ],
+  "primary_phone": {
+   "number": "+66 2 801 9100",
+   "sanitized_number": "+6628019100"
+  },
+  "sanitized_phone": "+6628019100",
+  "num_languages": 0,
+  "num_retail_locations": 5,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": -0.04,
+  "organization_headcount_twelve_month_growth": 0.04347826086956522,
+  "organization_headcount_twenty_four_month_growth": 0.06666666666666667
+ },
+ {
+  "id": "61ec8732a139310001a0d931",
+  "name": "Oventure Group",
+  "website_url": "http://www.oventure-group.com",
+  "linkedin_url": "http://www.linkedin.com/company/oventure-group",
+  "languages": [],
+  "linkedin_uid": "80698628",
+  "founded_year": 2018,
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6a9903de9b1c010001e0e4c5/picture",
+  "primary_domain": "oventure-group.com",
+  "sic_codes": [
+   "6732"
+  ],
+  "naics_codes": [
+   "523999",
+   "523940"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": -0.03571428571428571,
+  "organization_headcount_twenty_four_month_growth": 0.125
+ },
+ {
+  "id": "62da20e2bf393a00a36293ca",
+  "name": "MTS Gold Group",
+  "website_url": "http://www.mtsgoldgroup.com",
+  "linkedin_url": "http://www.linkedin.com/company/mtsgoldgroup",
+  "languages": [],
+  "linkedin_uid": "82158082",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/68446a6cb6f1e8000150e90c/picture",
+  "primary_domain": "mtsgoldgroup.com",
+  "sic_codes": [
+   "3399",
+   "6211",
+   "3911"
+  ],
+  "naics_codes": [
+   "33149",
+   "523160",
+   "339910"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 6,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.05263157894736842,
+  "organization_headcount_twelve_month_growth": 0.25,
+  "organization_headcount_twenty_four_month_growth": 0.3333333333333333
+ },
+ {
+  "id": "54a133dc69702d2f9f830a00",
+  "name": "PTT International Co.,Ltd.",
+  "linkedin_url": "http://www.linkedin.com/company/ptt-international-co.-ltd.",
+  "languages": [],
+  "linkedin_uid": "936217",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/63edac0a998f12000100b12d/picture",
+  "sic_codes": [
+   "6282",
+   "6719"
+  ],
+  "naics_codes": [
+   "523940",
+   "551114"
+  ],
+  "num_languages": 0,
+  "num_retail_locations": 0,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": 0.0,
+  "organization_headcount_twenty_four_month_growth": -0.1666666666666667
+ },
+ {
+  "id": "5e56f81694c49d0001682595",
+  "name": "Bangkok Capital Asset Management",
+  "website_url": "http://www.bcap.co.th",
+  "linkedin_url": "http://www.linkedin.com/company/bangkok-capital-asset-management",
+  "languages": [],
+  "phone": "+66 2 618 1599",
+  "linkedin_uid": "14473537",
+  "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/68392ba193cfcd00011feeb9/picture",
+  "primary_domain": "bcap.co.th",
+  "sic_codes": [
+   "6732"
+  ],
+  "naics_codes": [
+   "523940"
+  ],
+  "primary_phone": {
+   "number": "+66 2 618 1599",
+   "sanitized_number": "+6626181599"
+  },
+  "sanitized_phone": "+6626181599",
+  "owned_by_organization_id": "6181a7c8e4708600fa3ccfe7",
+  "owned_by_organization": {
+   "id": "6181a7c8e4708600fa3ccfe7",
+   "name": "Bangkok Bank",
+   "website_url": "http://www.bangkokbank.com"
+  },
+  "num_languages": 0,
+  "owned_by_chain": [
+   "6181a7c8e4708600fa3ccfe7"
+  ],
+  "num_retail_locations": 1,
+  "organization_revenue": 0.0,
+  "show_intent": true,
+  "has_intent_signal_account": false,
+  "organization_headcount_six_month_growth": 0.0,
+  "organization_headcount_twelve_month_growth": -0.05263157894736842,
+  "organization_headcount_twenty_four_month_growth": -0.2173913043478261
+ }
+]
