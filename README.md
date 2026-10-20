@@ -19,3 +19,6 @@ Generates an Excel list of Thai companies that could buy SAP Business One or SAP
 - Apollo's free plan has no revenue filter, so revenue is checked after the search. Revenue is Apollo's estimate and can be rough.
 - Contact emails and direct phones cost Apollo credits and are off by default. The list gives company switchboard numbers.
 - Run one list at a time: two people generating at once can receive overlapping companies.
+
+## Sage Intacct leads
+Type `/generate-sage-leads`. Same flow, different segments (Financial Services, Hospitality, Business Services, Non-profit), revenue from 200M THB. Details in `RUNBOOK_SAGE.md`.

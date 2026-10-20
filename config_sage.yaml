@@ -1,0 +1,42 @@
+# Lead-gen settings for Sage Intacct (Actran Systems). SAP settings stay in config.yaml.
+
+target_count: 100
+fx_thb_per_usd: 35.0
+
+# Revenue floor in THB (user decision: 200M and up). Companies with unknown revenue are kept at the
+# bottom of their segment and flagged, because Apollo revenue for Thai companies is often missing.
+revenue_min_thb: 200000000
+keep_unknown_revenue: true
+
+# Lead tier by revenue (THB), from the sales guidance
+tiers:
+  - {name: "Core target (200M-1,000M)",        min: 200000000,  max: 1000000000}
+  - {name: "Large (1,000M+, compare with enterprise ERP)", min: 1000000000, max: null}
+
+# Shares of the list per major segment. Unfilled quota moves to other segments in priority order.
+quota_per_major: 25
+
+# Target segments. Lower priority number = pitch first. Matched by NAICS prefix, then by name keywords.
+segments:
+  - {priority: 1, major: "Financial Services", target: "Investment Holding / Private Equity / Venture Capital",
+     naics: ["551", "523910", "523999"], keywords: ["holding", "capital", "ventures", "venture", "private equity", "investment"]}
+  - {priority: 2, major: "Hospitality", target: "Hotel & Resort Groups",
+     naics: ["7211", "7212", "7213"], keywords: ["hotel", "resort", "hospitality"]}
+  - {priority: 3, major: "Business Services", target: "IT / Management / Engineering Consulting",
+     naics: ["5416", "5413", "54151"], keywords: ["consulting", "consultant", "advisory"]}
+  - {priority: 4, major: "Financial Services", target: "Real Estate Investment / Asset Management",
+     naics: ["523920", "525", "5311", "5312"], keywords: ["asset management", "reit", "property fund", "real estate"]}
+  - {priority: 5, major: "Non-profit", target: "NGO / Foundation / Development Organisation",
+     naics: ["813", "624"], keywords: ["foundation", "association", "ngo", "charity"]}
+  - {priority: 6, major: "Hospitality", target: "Restaurant Groups / Multi-outlet F&B",
+     naics: ["722"], keywords: ["restaurant", "food & beverage", "f&b"]}
+  - {priority: 7, major: "Business Services", target: "SaaS / Marketing Agency / Recruitment",
+     naics: ["5112", "518", "5418", "5613"], keywords: ["software", "agency", "recruitment", "staffing"]}
+
+# Apollo searches to run (see RUNBOOK_SAGE.md). One search per major segment.
+searches:
+  - {name: "Financial Services", naics: ["551", "5239", "525", "5311", "5312"]}
+  - {name: "Hospitality",        naics: ["7211", "7212", "7213", "722"]}
+  - {name: "Business Services",  naics: ["5416", "5413", "54151", "5112", "518", "5418", "5613"]}
+  - {name: "Non-profit",         naics: ["813", "624"]}
+employee_ranges: ["11,50", "51,200", "201,500", "501,1000", "1001,2000", "2001,5000", "5001,10000", "10001,20000"]
